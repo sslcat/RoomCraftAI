@@ -1,0 +1,74 @@
+{
+  "pirates_cove": {
+    "id": "pirates_cove", "name": "Pirate's Cove",
+    "description": "A captain's desk, warm brass and tasteful nautical details.",
+    "palette": ["#563A2E", "#B89559", "#213C43"],
+    "palette_names": "dark walnut, warm brass and deep teal",
+    "materials": "dark timber furniture, aged brass accents and restrained rope trim",
+    "decorations": "small nautical artwork and treasure-inspired storage boxes", "shelving": "dark timber freestanding shelving with brass details",
+    "lighting": "warm ship-lantern-style electric lamps with believable light falloff",
+    "equipment": "modern black gaming equipment with subtle brass-colored details",
+    "constraints": "keep nautical styling tasteful and equipment modern and usable",
+    "negative_constraints": "no ship reconstruction, open flames, new portholes or altered openings"
+  },
+  "cat_kingdom": {
+    "id": "cat_kingdom", "name": "Cat Kingdom",
+    "description": "Cozy textiles, soft pastels and playful feline accessories.",
+    "palette": ["#DFA9C3", "#B9B3D9", "#F1E6D7"],
+    "palette_names": "dusty pink, lavender and warm cream",
+    "materials": "cozy upholstered furniture, pale timber and soft textiles",
+    "decorations": "small cat-themed ornaments", "shelving": "playful cat-themed freestanding shelving",
+    "lighting": "soft pastel accent light when colored lighting is enabled",
+    "equipment": "modern pastel gaming hardware with subtle feline-inspired detailing",
+    "constraints": "use practical furniture with restrained cat-themed details, not cartoon-scale objects",
+    "negative_constraints": "no giant cats, animal-shaped architecture or altered windows and doors"
+  },
+  "underwater_realm": {
+    "id": "underwater_realm", "name": "Underwater Realm",
+    "description": "Ocean tones, sculptural lamps and dry, aquatic-inspired decor.",
+    "palette": ["#245B86", "#44B8B3", "#CEDFD9"],
+    "palette_names": "ocean blue, turquoise and pale sea-glass green",
+    "materials": "matte ocean-blue finishes, turquoise details and subtly aquatic textured furniture",
+    "decorations": "small ocean artwork", "shelving": "coral-inspired freestanding shelving",
+    "lighting": "electric jellyfish-shaped lamps and ocean-blue or turquoise accents when enabled",
+    "equipment": "contemporary gaming hardware with restrained aquatic color accents",
+    "constraints": "all aquatic effects are dry decorative objects or electric light; retain an ordinary habitable room",
+    "negative_constraints": "no actual water, flooding, aquarium walls, submerged equipment or wet electrical installations"
+  },
+  "cyberpunk_neon": {
+    "id": "cyberpunk_neon", "name": "Cyberpunk Neon",
+    "description": "Dark surfaces, cyan and violet accents, clean high-tech hardware.",
+    "palette": ["#272632", "#9665D9", "#52CCD4"],
+    "palette_names": "charcoal, violet and cyan",
+    "materials": "dark matte furniture and brushed metal details",
+    "decorations": "small futuristic decorative panels on freestanding supports and neon-style accessories", "shelving": "dark metal freestanding shelving",
+    "lighting": "controlled purple and cyan accent lighting when colored lighting is enabled",
+    "equipment": "clean modern high-tech hardware with realistic screens and supported monitor arms",
+    "constraints": "retain readable realistic materials and avoid excessive bloom",
+    "negative_constraints": "no futuristic replacement architecture, floating equipment or room-wide neon haze"
+  },
+  "enchanted_forest": {
+    "id": "enchanted_forest", "name": "Enchanted Forest",
+    "description": "Natural wood, greenery and a restrained touch of fantasy.",
+    "palette": ["#426247", "#B28A57", "#E6CA8D"],
+    "palette_names": "forest green, natural timber and soft amber",
+    "materials": "natural wood furniture, soft organic forms and textured upholstery",
+    "decorations": "small potted greenery and forest-inspired ornaments", "shelving": "natural timber freestanding shelving with organic forms",
+    "lighting": "electric mushroom-inspired lamps and warm low-voltage fairy lights",
+    "equipment": "modern functional gaming hardware with warm timber-colored accessories",
+    "constraints": "fantasy styling comes from furniture and accessories inside the existing room",
+    "negative_constraints": "no indoor forest replacing walls, growing structural trees or altered ceiling and flooring"
+  },
+  "minimalist_luxury": {
+    "id": "minimalist_luxury", "name": "Minimalist Luxury",
+    "description": "Premium materials, clean lines and a quietly refined setup.",
+    "palette": ["#D9CEC0", "#665C52", "#AAA28C"],
+    "palette_names": "warm stone, taupe and muted champagne",
+    "materials": "refined timber, premium matte finishes and elegant upholstered furniture",
+    "decorations": "one restrained sculptural object", "shelving": "orderly refined-timber freestanding shelving",
+    "lighting": "understated warm ambient light with realistic shadows",
+    "equipment": "elegant black or neutral equipment and carefully concealed cables",
+    "constraints": "keep the setup restrained, uncluttered and practical",
+    "negative_constraints": "no structural renovation, replacement flooring or luxury-room reconstruction"
+  }
+}

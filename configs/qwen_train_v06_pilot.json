@@ -1,0 +1,15 @@
+{
+  "steps": 100,
+  "rank": 8,
+  "alpha": 8.0,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.01,
+  "accumulation": 4,
+  "seed": 42,
+  "gradient_checkpointing": true,
+  "deterministic": true,
+  "clip_norm": 1.0,
+  "validation_every": 10,
+  "checkpoint_every": 10,
+  "min_free_gpu_gib": 60.0
+}

@@ -1,0 +1,66 @@
+{
+  "mode": "fresh_real_inference",
+  "started_unix": 1793430014.5543032,
+  "models": [
+    {
+      "model": "base",
+      "native_size": [
+        768,
+        1024
+      ],
+      "png_sha256": "4a569eaccb7c1268971fcfaff83cab03364f739709ac845e48bb74950be15f66",
+      "adapter_sha256": null,
+      "origin": "generated",
+      "total_seconds": 317.1221222829772,
+      "comparison_drag": true,
+      "png_and_metadata_download": true
+    },
+    {
+      "model": "roomcraft",
+      "native_size": [
+        768,
+        1024
+      ],
+      "png_sha256": "3df345b3ffdb140e466036b948007f9be881b2780f4ec1559168dddff1c3076f",
+      "adapter_sha256": "1be7a8089b2fe037e7458a1b20bff5b76fe133dafe6aa4d3a3691a9772a442e6",
+      "origin": "generated",
+      "total_seconds": 121.23252123803832,
+      "comparison_drag": true,
+      "png_and_metadata_download": true
+    }
+  ],
+  "session_history_verified": true,
+  "session_clear_verified": false,
+  "session_history_and_clear": false,
+  "browser_errors": [],
+  "matched_base_lora_inputs_and_settings": true,
+  "finished_unix": 1793430533.9925184,
+  "additional_checks": {
+    "invalid_upload_readable_error": true,
+    "arbitrary_file_requests_denied": [
+      403,
+      403,
+      403
+    ],
+    "fresh_candidate_install_launch_browser_journey": true,
+    "restart_history_empty_and_owned_stale_cache_removed": true,
+    "missing_lora_rejected_without_fallback": true,
+    "gpu_preflight_actual_failure": true,
+    "api_failure_handling": "unit fault injection; no claim of a real provider outage"
+  },
+  "previous_saved_mode_session_clear_verified": true,
+  "live_session_clear_note": "Skipped intentionally to preserve logs; separately tested in saved mode.",
+  "fresh_model_inference_through_application": "passed for unchanged Qwen and trained RoomCraft LoRA",
+  "hardware": "H100 SXM 80 GB; existing dedicated RoomCraft storage",
+  "settings": {
+    "seed": 42,
+    "steps": 40,
+    "cfg": 4,
+    "long_side": 1024,
+    "rga": false
+  },
+  "shutdown": "Automatic termination and separate fresh authenticated HTTP 404; detached guard also confirmed absence.",
+  "lifetime_seconds": 649.6746542453766,
+  "incremental_estimate_usd": 0.7694191244902987,
+  "billing": "Settlement pending; rate-times-lifetime estimate includes storage allowance."
+}

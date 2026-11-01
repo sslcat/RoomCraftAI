@@ -1,0 +1,37 @@
+{
+  "mode": "previous_real_outputs_only",
+  "started_unix": 1793495516.079911,
+  "session_history_verified": true,
+  "session_clear_verified": true,
+  "session_history_and_clear": true,
+  "browser_errors": [],
+  "finished_unix": 1793495521.9091752,
+  "models": [
+    {
+      "model": "base",
+      "native_size": [
+        768,
+        1024
+      ],
+      "png_sha256": "25855484fe6d563c479218d77abcda36046af265aab7b0e5738481a006e844e4",
+      "adapter_sha256": null,
+      "origin": "saved_example",
+      "total_seconds": 47.25528386095539,
+      "comparison_drag": true,
+      "png_and_metadata_download": true
+    },
+    {
+      "model": "roomcraft",
+      "native_size": [
+        768,
+        1024
+      ],
+      "png_sha256": "f34a6d062549e73b9967c09841f73c649f214a896d68dce1d5a4c9a4363f6b92",
+      "adapter_sha256": "1be7a8089b2fe037e7458a1b20bff5b76fe133dafe6aa4d3a3691a9772a442e6",
+      "origin": "saved_example",
+      "total_seconds": 53.61071629298385,
+      "comparison_drag": true,
+      "png_and_metadata_download": true
+    }
+  ]
+}

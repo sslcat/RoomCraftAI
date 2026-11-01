@@ -1,0 +1,247 @@
+{
+  "status": "plan_only_no_paid_approval",
+  "checkpoint": "outputs/v06/trained/pilot/step-000100",
+  "adapter_sha256": "1be7a8089b2fe037e7458a1b20bff5b76fe133dafe6aa4d3a3691a9772a442e6",
+  "settings": {
+    "steps": 40,
+    "true_cfg_scale": 4.0,
+    "negative_prompt": " ",
+    "offload": false
+  },
+  "comparison_warning": "Equal seeds across resolutions do not yield identical noise tensors. Each baseline/adapter pair has the same dimensions and settings.",
+  "cases": [
+    {
+      "id": "family_05_v00",
+      "domain": "synthetic",
+      "source": "data/v06_ready/pairs/family_05_v00/source.png",
+      "source_sha256": "b038ee0b6f642714d2b9250b1a2afcf70cbb4a69b9fe1d49265a040042205e78",
+      "instruction": "Furnish this dining room with a timber dining table, six upholstered wooden chairs, a ceramic vase, a low timber sideboard, a wool rug and a potted plant. Preserve the room architecture, doors, windows, camera and lighting.",
+      "provenance": {
+        "author": "RoomCraft procedural scene generator; asset authors listed in provenance",
+        "source_url": "urn:roomcraft:procedural:v06-repair:family_05_v00",
+        "license": "MIT (original contribution); CC0-1.0 (listed assets)",
+        "license_url": "https://opensource.org/license/mit"
+      }
+    },
+    {
+      "id": "family_18_v00",
+      "domain": "synthetic",
+      "source": "data/v06_ready/pairs/family_18_v00/source.png",
+      "source_sha256": "51a642dd3853f53376e97845469df277839d4cd6cf65ce8d1ddea2d8eed6dc4c",
+      "instruction": "Furnish this living room with a tufted leather sofa, a timber coffee table with a book and ceramic vase, a wooden lounge chair with leather cushions, a wool area rug and a potted plant. Preserve the room architecture, doors, windows, camera and lighting.",
+      "provenance": {
+        "author": "RoomCraft procedural scene generator; asset authors listed in provenance",
+        "source_url": "urn:roomcraft:procedural:v05:family_18_v00",
+        "license": "MIT (original contribution); CC0-1.0 (listed assets)",
+        "license_url": "https://opensource.org/license/mit"
+      }
+    },
+    {
+      "id": "family_19_v00",
+      "domain": "synthetic",
+      "source": "data/v06_ready/pairs/family_19_v00/source.png",
+      "source_sha256": "201c1aea648fbb512946141885acc8058649a81381f9b921983aa92f13297ba8",
+      "instruction": "Furnish this bedroom with a timber queen bed, upholstered headboard, linen duvet and pillows, a folded colored throw, two bedside tables with unlit lamps, a cushioned bench, a wool rug and a potted plant. Preserve the room architecture, doors, windows, camera and lighting.",
+      "provenance": {
+        "author": "RoomCraft procedural scene generator; asset authors listed in provenance",
+        "source_url": "urn:roomcraft:procedural:v06-repair:family_19_v00",
+        "license": "MIT (original contribution); CC0-1.0 (listed assets)",
+        "license_url": "https://opensource.org/license/mit"
+      }
+    },
+    {
+      "id": "apartment",
+      "domain": "real",
+      "source": "data/v02/apartment.jpg",
+      "source_sha256": "72a942820e607388eb769a9f095156455ba5c1b49dde285a5e91704d4f47762c",
+      "instruction": "Furnish this room as a modest contemporary bedroom with a double bed, two compact bedside tables and a small dresser. Keep the open door and closet accessible. Preserve walls, doorways, closet, carpet, camera viewpoint and existing lighting. Do not add or move architectural features.",
+      "provenance": {
+        "author": "aismallard",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Empty_room_in_apartment.jpg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "restrictions": "Credit author, link source and license, identify resizing/masks/AI edits; share-alike for distributed adaptations where BY-SA applies. No endorsement. Photo rights do not license model weights.",
+        "rights_evidence": "data/v02/apartment-rights.json"
+      },
+      "image": {
+        "path": "data/v02/apartment.jpg",
+        "sha256": "72a942820e607388eb769a9f095156455ba5c1b49dde285a5e91704d4f47762c",
+        "bytes": 196855,
+        "dimensions": [
+          1280,
+          960
+        ],
+        "format": "JPEG",
+        "encoded_mode": "RGB",
+        "laplacian_variance": 795.0640869140625,
+        "mean_squared_sobel": 2747.779541015625
+      }
+    },
+    {
+      "id": "hotel",
+      "domain": "real",
+      "source": "data/v02/hotel.jpg",
+      "source_sha256": "6832cabc8d8b44b435e1d3ad6d4ffe0130780e1eea86ec346739377fdf927a18",
+      "instruction": "Furnish this small corner with one comfortable blue-gray upholstered armchair, a small wooden side table and a reading lamp. Keep circulation space open. Preserve the curtains, wallpaper, parquet floor, walls, camera viewpoint and existing lighting. Do not add or move architectural features.",
+      "provenance": {
+        "author": "upyernoz",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Our_Hotel_Suite-1_(4983234010).jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0",
+        "restrictions": "Credit author, link source and license, identify resizing/masks/AI edits; share-alike for distributed adaptations where BY-SA applies. No endorsement. Photo rights do not license model weights.",
+        "rights_evidence": "data/v02/hotel-rights.json"
+      },
+      "image": {
+        "path": "data/v02/hotel.jpg",
+        "sha256": "6832cabc8d8b44b435e1d3ad6d4ffe0130780e1eea86ec346739377fdf927a18",
+        "bytes": 396583,
+        "dimensions": [
+          1280,
+          1707
+        ],
+        "format": "JPEG",
+        "encoded_mode": "RGB",
+        "laplacian_variance": 382.03485107421875,
+        "mean_squared_sobel": 5026.56787109375
+      }
+    },
+    {
+      "id": "windows",
+      "domain": "real",
+      "source": "data/v02/windows.jpg",
+      "source_sha256": "7a700d5b1fd01f40be178acb74d36021188908dbeb82a354e1ca7ff1fababfdd",
+      "instruction": "Furnish this room as a contemporary living room with a neutral fabric two-seat sofa against the right wall beneath the small window, a low wooden coffee table, a wool rug and a small potted plant. Preserve both windows, walls, baseboards, dark wood flooring, camera viewpoint and daylight. Do not add or move architectural features.",
+      "provenance": {
+        "author": "aismallard",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Empty_apartment_room_with_corner_windows.jpg",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "restrictions": "Credit author, link source and license, identify resizing/masks/AI edits; share-alike for distributed adaptations where BY-SA applies. No endorsement. Photo rights do not license model weights.",
+        "rights_evidence": "data/v02/windows-rights.json"
+      },
+      "image": {
+        "path": "data/v02/windows.jpg",
+        "sha256": "7a700d5b1fd01f40be178acb74d36021188908dbeb82a354e1ca7ff1fababfdd",
+        "bytes": 153949,
+        "dimensions": [
+          1280,
+          960
+        ],
+        "format": "JPEG",
+        "encoded_mode": "RGB",
+        "laplacian_variance": 240.67724609375,
+        "mean_squared_sobel": 2891.235107421875
+      }
+    }
+  ],
+  "runs": [
+    {
+      "case": "apartment",
+      "size": 512,
+      "seed": 42
+    },
+    {
+      "case": "hotel",
+      "size": 512,
+      "seed": 42
+    },
+    {
+      "case": "windows",
+      "size": 512,
+      "seed": 42
+    },
+    {
+      "case": "family_05_v00",
+      "size": 512,
+      "seed": 42
+    },
+    {
+      "case": "family_18_v00",
+      "size": 512,
+      "seed": 42
+    },
+    {
+      "case": "family_19_v00",
+      "size": 512,
+      "seed": 42
+    },
+    {
+      "case": "apartment",
+      "size": 768,
+      "seed": 42
+    },
+    {
+      "case": "hotel",
+      "size": 768,
+      "seed": 42
+    },
+    {
+      "case": "windows",
+      "size": 768,
+      "seed": 42
+    },
+    {
+      "case": "family_05_v00",
+      "size": 768,
+      "seed": 42
+    },
+    {
+      "case": "family_18_v00",
+      "size": 768,
+      "seed": 42
+    },
+    {
+      "case": "family_19_v00",
+      "size": 768,
+      "seed": 42
+    },
+    {
+      "case": "apartment",
+      "size": 1024,
+      "seed": 42
+    },
+    {
+      "case": "hotel",
+      "size": 1024,
+      "seed": 42
+    },
+    {
+      "case": "windows",
+      "size": 1024,
+      "seed": 42
+    },
+    {
+      "case": "family_05_v00",
+      "size": 1024,
+      "seed": 42
+    },
+    {
+      "case": "family_18_v00",
+      "size": 1024,
+      "seed": 42
+    },
+    {
+      "case": "family_19_v00",
+      "size": 1024,
+      "seed": 42
+    },
+    {
+      "case": "apartment",
+      "size": 768,
+      "seed": 17
+    },
+    {
+      "case": "hotel",
+      "size": 768,
+      "seed": 17
+    },
+    {
+      "case": "windows",
+      "size": 768,
+      "seed": 17
+    }
+  ],
+  "planned_image_count": 42,
+  "reused_v06_images": 6,
+  "new_inference_images": 36
+}

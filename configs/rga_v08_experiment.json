@@ -1,0 +1,36 @@
+{
+  "status": "planned_no_cloud_approval_no_trained_rga",
+  "v07_protocol": "configs/v07_evaluation.json",
+  "v07_protocol_sha256": "ec14021f616b3f1f957d05e1f3bd4cc2f75b7ae20405e579aa072bc03a4c5d3d",
+  "sizes": [
+    768,
+    1024
+  ],
+  "seeds": [
+    42,
+    17
+  ],
+  "settings": {
+    "steps": 40,
+    "true_cfg_scale": 4.0,
+    "negative_prompt": " ",
+    "offload": false
+  },
+  "variants": [
+    "A_qwen",
+    "B_lora",
+    "C_lora_rga",
+    "D_rga_disabled"
+  ],
+  "expected_images": 96,
+  "quality_scores": null,
+  "checks": [
+    "paired native dimensions/settings/input hashes",
+    "structural landmarks",
+    "furniture realism",
+    "sharpness native crops",
+    "instruction adherence",
+    "B versus D disabled-path equivalence"
+  ],
+  "gpu_execution_requires_separate_owner_approval": true
+}

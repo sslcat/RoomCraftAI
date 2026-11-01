@@ -1,0 +1,48 @@
+{
+  "mode": "free_browser_controls_and_saved_artifacts",
+  "started_unix": 1793495502.626634,
+  "themes": [
+    {
+      "id": "pirates_cove",
+      "instruction_verified": true
+    },
+    {
+      "id": "cat_kingdom",
+      "instruction_verified": true
+    },
+    {
+      "id": "underwater_realm",
+      "instruction_verified": true
+    },
+    {
+      "id": "cyberpunk_neon",
+      "instruction_verified": true
+    },
+    {
+      "id": "enchanted_forest",
+      "instruction_verified": true
+    },
+    {
+      "id": "minimalist_luxury",
+      "instruction_verified": true
+    }
+  ],
+  "live_models": [],
+  "viewports": [
+    {
+      "width": 1440,
+      "document": 1440
+    },
+    {
+      "width": 390,
+      "document": 390
+    },
+    {
+      "width": 320,
+      "document": 320
+    }
+  ],
+  "custom_theme_reset_equipment_lighting_rga_controls": "passed",
+  "browser_errors": [],
+  "finished_unix": 1793495515.7271934
+}

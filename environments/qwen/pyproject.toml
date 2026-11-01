@@ -1,0 +1,22 @@
+[project]
+name = "roomcraft-qwen-environment"
+version = "0.3.0"
+requires-python = ">=3.12,<3.13"
+dependencies = ["roomcraft-ai", "torchvision==0.23.0"]
+
+[dependency-groups]
+dev = ["pytest==9.0.3", "ruff==0.13.1", "mypy==1.18.2", "types-Pillow==10.2.0.20240822"]
+
+[tool.uv]
+# Intentional overrides isolated from the SDXL environment and its lockfile.
+override-dependencies = ["diffusers==0.37.1", "transformers==4.57.6"]
+
+[tool.uv.sources]
+roomcraft-ai = { path = "../..", editable = true }
+torch = { index = "pytorch" }
+torchvision = { index = "pytorch" }
+
+[[tool.uv.index]]
+name = "pytorch"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true

@@ -1,0 +1,20 @@
+{
+  "Gaming setups": [
+    {"id":"gaming_minimal","name":"Minimalist gaming desk","instruction":"Add a minimalist gaming setup: a 140 x 70 cm straight desk against a suitable wall, one 27-inch monitor on a supported arm, a compact desktop PC tower, ergonomic gaming chair, keyboard, mouse and tidy concealed cables. Use restrained warm ambient lighting and realistic matte materials."},
+    {"id":"gaming_rgb","name":"Dual-monitor RGB setup","instruction":"Add a tasteful dual-monitor gaming setup: a 160 x 75 cm desk, two 27-inch monitors on securely mounted arms at eye level, a ventilated PC tower, comfortable gaming chair, keyboard, mouse and desk mat. Add subtle RGB accents behind the monitors and inside the PC, with believable light falloff and concealed cables."},
+    {"id":"gaming_triple","name":"Triple-monitor workstation","instruction":"Add a professional triple-monitor workstation with a 180 x 80 cm desk where space permits, three 27-inch monitors on supported arms arranged in a shallow arc, one PC tower, ergonomic chair, keyboard, mouse and cable tray. Keep the setup restrained, functional and realistically proportioned."},
+    {"id":"gaming_stream","name":"Streaming & content creation","instruction":"Add a streaming and content-creation setup: a 160 x 75 cm desk, dual monitors, PC tower, ergonomic gaming chair, microphone on a clamped boom arm, compact camera, small soft key light, keyboard and mouse. Add a modest shelf and soft colored accent lighting with credible shadows. Keep equipment mounts physically connected."},
+    {"id":"gaming_compact","name":"Compact bedroom gaming corner","instruction":"Fit a compact gaming corner into the available room: a 110 x 60 cm desk with one 24-inch monitor, small PC tower, compact ergonomic chair, keyboard, mouse and under-desk cable management. Keep the bed area and room circulation usable, with clearance to pull out the chair. Use restrained ambient lighting."},
+    {"id":"gaming_premium","name":"Premium gaming room","instruction":"Create a premium gaming room with a dimensionally plausible L-shaped desk, dual 32-inch monitors on supported arms, a refined PC tower, ergonomic chair, keyboard and mouse, organized shelving and concealed cables. Use elegant dark timber and metal, warm ambient lighting and restrained RGB accents. Scale the desk to the actual available room."}
+  ],
+  "Living rooms": [
+    {"id":"living_contemporary","name":"Warm contemporary","instruction":"Stage a warm contemporary living room with a realistically sized upholstered sofa, timber coffee table, lounge chair, wool area rug, modest shelving and one potted plant. Use natural textures and lighting consistent with the photograph."},
+    {"id":"living_reading","name":"Quiet reading corner","instruction":"Furnish this small corner with one comfortable blue-gray upholstered armchair, a small wooden side table and a reading lamp. Keep circulation space open. Preserve the curtains, wallpaper, parquet floor, walls, camera viewpoint and existing lighting. Do not add or move architectural features."}
+  ],
+  "Bedrooms": [
+    {"id":"bedroom_calm","name":"Calm modern bedroom","instruction":"Stage a calm modern bedroom with a double bed scaled to the room, upholstered headboard, linen bedding, two compact bedside tables, small lamps and a modest dresser. Keep the closet accessible and allow circulation on the usable sides of the bed."}
+  ],
+  "Modern luxury": [
+    {"id":"luxury_modern","name":"Understated modern luxury","instruction":"Stage an understated modern luxury interior with a carefully proportioned curved sofa, timber and stone coffee table, textured area rug, elegant lounge chair and restrained decorative objects. Use refined materials, realistic reflections and soft lighting that respects the room's existing illumination."}
+  ]
+}

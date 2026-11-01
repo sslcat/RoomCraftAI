@@ -1,0 +1,16 @@
+{
+  "schema": "roomcraft-procedural-v1",
+  "seed": 53021,
+  "families": 20,
+  "variants_per_family": 5,
+  "resolution": [1024, 768],
+  "samples": 128,
+  "adaptive_threshold": 0.015,
+  "device": "OPTIX",
+  "furnishing_mode": "cc0_hybrid",
+  "asset_root": "data/v05_assets",
+  "denoiser": "OPENIMAGEDENOISE",
+  "split_seed": 42,
+  "blender_version": "5.2.2 LTS",
+  "blender_build": "d13f752e3b9c"
+}

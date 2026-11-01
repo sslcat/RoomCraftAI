@@ -1,0 +1,11 @@
+{
+  "model": "Qwen/Qwen-Image-Edit-2511",
+  "revision": "6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9",
+  "model_card_url": "https://huggingface.co/Qwen/Qwen-Image-Edit-2511/raw/6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9/README.md",
+  "model_card_sha256": "9724c194bef2a6d821090f0cd65774962e8f77e3acbfb2a7cbbdd58c92049902",
+  "license_declaration": "apache-2.0",
+  "standalone_LICENSE_at_locked_revision": false,
+  "canonical_license_url": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+  "canonical_license_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+  "note": "Exact checkpoint has model-card license declaration, not a standalone LICENSE file. Canonical Apache text is supplied; no foundation weights redistributed."
+}

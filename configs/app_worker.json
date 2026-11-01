@@ -1,0 +1,7 @@
+{
+  "image": "runpod/pytorch:1.0.2-cu1281-torch280-ubuntu2404@sha256:0a360022e8de4375af99430f84e8b38951acc397252163a37ceac7204d01be35",
+  "remote_root": "/workspace/RoomCraftAI",
+  "disk_gb": 30,
+  "idle_seconds": 300,
+  "gpu_ids": ["NVIDIA H100 80GB HBM3", "NVIDIA A100-SXM4-80GB", "NVIDIA A100 80GB PCIe"]
+}

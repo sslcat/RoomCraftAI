@@ -1,0 +1,132 @@
+{
+  "mode": "free_browser_controls_only_no_inference",
+  "purpose_theme_cases": [
+    {
+      "purpose": "Gaming",
+      "theme": "Pirate's Cove",
+      "prompt_verified": true
+    },
+    {
+      "purpose": "Gaming",
+      "theme": "Cat Kingdom",
+      "prompt_verified": true
+    },
+    {
+      "purpose": "Gaming",
+      "theme": "Underwater Realm",
+      "prompt_verified": true
+    },
+    {
+      "purpose": "Gaming",
+      "theme": "Cyberpunk Neon",
+      "prompt_verified": true
+    },
+    {
+      "purpose": "Gaming",
+      "theme": "Enchanted Forest",
+      "prompt_verified": true
+    },
+    {
+      "purpose": "Gaming",
+      "theme": "Minimalist Luxury",
+      "prompt_verified": true
+    },
+    {
+      "purpose": "Work",
+      "theme": "Pirate's Cove",
+      "prompt_verified": true
+    },
+    {
+      "purpose": "Work",
+      "theme": "Cat Kingdom",
+      "prompt_verified": true
+    },
+    {
+      "purpose": "Work",
+      "theme": "Underwater Realm",
+      "prompt_verified": true
+    },
+    {
+      "purpose": "Work",
+      "theme": "Cyberpunk Neon",
+      "prompt_verified": true
+    },
+    {
+      "purpose": "Work",
+      "theme": "Enchanted Forest",
+      "prompt_verified": true
+    },
+    {
+      "purpose": "Work",
+      "theme": "Minimalist Luxury",
+      "prompt_verified": true
+    },
+    {
+      "purpose": "Relaxation",
+      "theme": "Pirate's Cove",
+      "prompt_verified": true
+    },
+    {
+      "purpose": "Relaxation",
+      "theme": "Cat Kingdom",
+      "prompt_verified": true
+    },
+    {
+      "purpose": "Relaxation",
+      "theme": "Underwater Realm",
+      "prompt_verified": true
+    },
+    {
+      "purpose": "Relaxation",
+      "theme": "Cyberpunk Neon",
+      "prompt_verified": true
+    },
+    {
+      "purpose": "Relaxation",
+      "theme": "Enchanted Forest",
+      "prompt_verified": true
+    },
+    {
+      "purpose": "Relaxation",
+      "theme": "Minimalist Luxury",
+      "prompt_verified": true
+    },
+    {
+      "purpose": "Mixed-purpose",
+      "theme": "Pirate's Cove",
+      "prompt_verified": true
+    },
+    {
+      "purpose": "Mixed-purpose",
+      "theme": "Cat Kingdom",
+      "prompt_verified": true
+    },
+    {
+      "purpose": "Mixed-purpose",
+      "theme": "Underwater Realm",
+      "prompt_verified": true
+    },
+    {
+      "purpose": "Mixed-purpose",
+      "theme": "Cyberpunk Neon",
+      "prompt_verified": true
+    },
+    {
+      "purpose": "Mixed-purpose",
+      "theme": "Enchanted Forest",
+      "prompt_verified": true
+    },
+    {
+      "purpose": "Mixed-purpose",
+      "theme": "Minimalist Luxury",
+      "prompt_verified": true
+    }
+  ],
+  "rga_default_on_with_lora_off_switch_base_and_reset": "passed",
+  "layouts": [
+    1440,
+    390,
+    320
+  ],
+  "browser_errors": []
+}

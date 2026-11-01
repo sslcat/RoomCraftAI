@@ -1,0 +1,23 @@
+{
+  "scope": "CPU and browser final polish; no new paid GPU inference",
+  "qwen_tests": 156,
+  "base_tests": 142,
+  "base_skips": 14,
+  "ui_tests": 44,
+  "type_check_modules": 30,
+  "browser": {
+    "purposes": 4,
+    "themes_independent": true,
+    "desktop_mobile": [
+      1440,
+      390,
+      320
+    ],
+    "composite_download_verified": true,
+    "browser_errors": []
+  },
+  "historical_underwater_prompt_exact": true,
+  "rga_pair_status": "pending separate owner GPU approval",
+  "masking": "limited curtain patch; whole-room geometry not preserved",
+  "publication": false
+}

@@ -1,0 +1,15 @@
+{
+  "owner_approved": false,
+  "scope": "Two real smoke updates with resume; then 100 fresh pilot updates and six matched held-out renders only if smoke verifies",
+  "pod_id": "REPLACE_AFTER_APPROVED_DEPLOYMENT",
+  "pod_name": "roomcraft-v06-first-training",
+  "network_volume_id": "REPLACE_WITH_NEW_ROOMCRAFT_VOLUME_ID",
+  "billing_started_utc": "REPLACE_WITH_ACTUAL_CREATION_TIMESTAMP",
+  "budget_usd": 40.0,
+  "max_hours": 4.0,
+  "pod_hourly_ceiling_usd": 4.0,
+  "storage_reserve_usd": 17.5,
+  "reserve_usd": 6.5,
+  "storage_retention": "250 GB standard regional volume, at most 30 days at $0.07/GB/month. Export and verify artifacts before owner-authorized deletion. Storage keeps billing after Pod stop.",
+  "approval_note": "Template is not approval. Requote live GPU/volume prices and record owner consent; no credentials here."
+}

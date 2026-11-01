@@ -1,0 +1,60 @@
+[build-system]
+requires = ["hatchling==1.27.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "roomcraft-ai"
+version = "1.1.0"
+description = "RoomCraft Studio with reproducible Qwen editing and room-design research"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+license = "MIT"
+dependencies = [
+  "numpy==2.2.6", "Pillow==11.3.0", "opencv-python-headless==4.12.0.88",
+  "torch==2.8.0", "diffusers>=0.35.1,<=0.37.1", "transformers>=4.56.2,<=4.57.6",
+  "accelerate==1.10.1", "peft==0.17.1", "safetensors==0.6.2",
+  "huggingface-hub==0.34.4"
+]
+
+[dependency-groups]
+dev = ["pytest==9.0.3", "ruff==0.13.1", "mypy==1.18.2", "types-Pillow==10.2.0.20240822"]
+
+[project.scripts]
+roomcraft = "roomcraft.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/roomcraft"]
+
+[tool.uv]
+# The SDXL and Qwen locks keep their original exact runtime versions. Package
+# metadata accepts both existing stacks so the Qwen environment passes pip check.
+constraint-dependencies = ["diffusers==0.35.1", "transformers==4.56.2"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--basetemp=.pytest-tmp"
+cache_dir = ".cache/pytest-cache"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = [".cache", ".venv", "data", "runs", "outputs", "docs/sources"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.12"
+files = ["src/roomcraft"]
+check_untyped_defs = true
+disallow_untyped_defs = true
+ignore_missing_imports = true
+
+[[tool.uv.index]]
+name = "pytorch"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch" }

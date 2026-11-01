@@ -1,0 +1,28 @@
+{
+  "status": "prepared only; not deployed; owner approval required before paid resources",
+  "kind": "human-readable Pod requirements, not an API create payload",
+  "gpu_count": 1,
+  "preferred_gpu": "NVIDIA A100 80GB or H100 80GB",
+  "gpu_memory_class_gb": 80,
+  "host_ram_gib": 128,
+  "vcpus": 16,
+  "cuda_driver_compatibility_floor": "12.8",
+  "image_tag_verified": "runpod/pytorch:1.0.2-cu1281-torch280-ubuntu2404",
+  "image": "runpod/pytorch@sha256:0a360022e8de4375af99430f84e8b38951acc397252163a37ceac7204d01be35",
+  "architecture": "linux/amd64",
+  "container_disk_gb": 30,
+  "persistent_storage_gb": 200,
+  "persistent_mount": "/workspace",
+  "ports": ["22/tcp"],
+  "environment": {
+    "HF_HOME": "/workspace/.cache/huggingface",
+    "UV_CACHE_DIR": "/workspace/.cache/uv",
+    "UV_PYTHON_INSTALL_DIR": "/workspace/.local/share/uv/python"
+  },
+  "code_path": "/workspace/RoomCraftAI",
+  "setup_command": "bash scripts/runpod_v03_setup.sh",
+  "inference": {"dtype": "bfloat16", "offload": false, "quantization": "none"},
+  "persistence": ["project source and both lockfiles", "model cache", "licensed inputs and provenance", "outputs/v02 baselines", "outputs/v03", "experiments"],
+  "cost_and_availability": "Not queried or quoted; recheck live stock and full GPU/storage price before owner approval. Stopped/deleted resource storage behavior must be reviewed before teardown.",
+  "automatic_shutdown": "none; no timer enforcement claimed"
+}

@@ -1,0 +1,22 @@
+{
+  "inpaint": {
+    "repo": "diffusers/stable-diffusion-xl-1.0-inpainting-0.1",
+    "revision": "115134f363124c53c7d878647567d04daf26e41e"
+  },
+  "canny": {
+    "repo": "diffusers/controlnet-canny-sdxl-1.0",
+    "revision": "eb115a19a10d14909256db740ed109532ab1483c"
+  },
+  "depth": {
+    "repo": "diffusers/controlnet-depth-sdxl-1.0",
+    "revision": "17bb97973f29801224cd66f192c5ffacf82648b4"
+  },
+  "flux": {
+    "repo": "black-forest-labs/FLUX.1-Fill-dev",
+    "revision": "358293da0354175698b67ec8299acf928313a78a"
+  },
+  "qwen": {
+    "repo": "Qwen/Qwen-Image-Edit-2511",
+    "revision": "6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9"
+  }
+}

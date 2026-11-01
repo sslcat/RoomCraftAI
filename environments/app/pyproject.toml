@@ -1,0 +1,14 @@
+[project]
+name = "roomcraft-ui-environment"
+version = "1.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = ["gradio==6.31.0", "Pillow==13.0.0", "psutil==7.2.2"]
+
+[dependency-groups]
+dev = ["pytest==9.0.3", "pip-audit==2.10.1", "playwright==1.64.1"]
+
+[tool.uv]
+package = false
+# Gradio's <13 ceiling predates Pillow's security fixes. The UI's upload,
+# comparison and download APIs are tested against 13; see docs/SECURITY_AUDIT.md.
+override-dependencies = ["Pillow==13.0.0"]

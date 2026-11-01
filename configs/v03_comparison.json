@@ -1,0 +1,32 @@
+{
+  "protocol": "Primary comparison: same source photo, output dimensions, furnishing goal and seed. Model-specific prompts/steps/CFG; not equal-compute. Inspect raw outputs separately from SDXL composites.",
+  "qwen_settings": {"size": 1024, "steps": 40, "true_cfg_scale": 4.0, "seed": 42, "negative_prompt": " ", "offload": false},
+  "cases": [
+    {
+      "id": "windows",
+      "image": "data/v02/windows.jpg",
+      "sha256": "7a700d5b1fd01f40be178acb74d36021188908dbeb82a354e1ca7ff1fababfdd",
+      "sdxl": "outputs/v02/w02-caption",
+      "goal": "Blue upholstered two-seat sofa with wooden legs against the right wall below the small window",
+      "instruction": "Add a blue upholstered two-seat sofa with wooden legs against the right wall below the small window. Make it a realistic Scandinavian living room photograph, with plausible furniture scale, contact shadows and the existing natural daylight. Preserve both windows, their frames, all walls, the wooden floor pattern, room perspective and camera viewpoint. Change only what is needed to place the sofa and its shadows."
+    },
+    {
+      "id": "apartment",
+      "image": "data/v02/apartment.jpg",
+      "sha256": "72a942820e607388eb769a9f095156455ba5c1b49dde285a5e91704d4f47762c",
+      "sdxl": "outputs/v02/a01-caption",
+      "goal": "Compact blue upholstered two-seat sofa with wooden legs against the right wall on beige carpet",
+      "instruction": "Add a compact blue upholstered two-seat sofa with wooden legs against the right wall on the beige carpet. Make it a realistic Scandinavian living room photograph, with plausible furniture scale, contact shadows and the existing room lighting. Preserve the door, closet, walls, carpet pattern, room perspective and camera viewpoint. Leave access through the doorway clear. Change only what is needed to place the sofa and its shadows."
+    },
+    {
+      "id": "hotel",
+      "image": "data/v02/hotel.jpg",
+      "sha256": "6832cabc8d8b44b435e1d3ad6d4ffe0130780e1eea86ec346739377fdf927a18",
+      "sdxl": "outputs/v02/h01-caption",
+      "goal": "Blue upholstered armchair with wooden legs in the corner beside the curtains on the parquet floor",
+      "instruction": "Add one comfortable blue upholstered armchair with wooden legs in the corner to the left of the curtains, standing naturally on the parquet floor. Make it a realistic interior photograph with plausible scale, contact shadows and the existing window lighting. Preserve the curtains, window, wallpaper, wood wall panels, parquet pattern, room perspective and camera viewpoint. Change only what is needed to place the armchair and its shadows."
+    }
+  ],
+  "review_axes": ["Furniture realism", "Instruction adherence", "Walls/windows/doors", "Floor and perspective", "Lighting and contact shadows", "Visible artifacts"],
+  "review_method": "Qualitative human/AI inspection must identify reviewer; no automatic subjective scores. Seed 17 and V0.2 full-strength examples are supplementary evidence, not substituted for the primary baseline."
+}

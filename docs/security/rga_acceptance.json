@@ -1,0 +1,46 @@
+{
+  "scope": "One real photograph, Underwater prompt, seed 42; subjective visual assessment, not general reliability proof.",
+  "matched_keys": [
+    "prompt",
+    "settings",
+    "base",
+    "adapter_sha256",
+    "input_sha256",
+    "source_size",
+    "working_size",
+    "dtype",
+    "quantization",
+    "compositing",
+    "scheduler_class",
+    "scheduler_config",
+    "zero_cond_t"
+  ],
+  "all_matched": true,
+  "full_resolution": [
+    768,
+    1024
+  ],
+  "rga_off_pixel_identical_to_original": true,
+  "rga_on_pixel_identical_to_off": false,
+  "residual_diagnostics": {
+    "first_block": {
+      "hidden_dtype": "torch.bfloat16",
+      "residual_dtype": "torch.bfloat16",
+      "hidden_rms": 658230.75,
+      "residual_rms": 23119.29296875,
+      "fraction_unchanged_after_add": 0.0370890311896801,
+      "actual_addition_delta_rms": 23126.1484375
+    },
+    "last_block": {
+      "hidden_dtype": "torch.bfloat16",
+      "residual_dtype": "torch.bfloat16",
+      "hidden_rms": 28370000.0,
+      "residual_rms": 23119.29296875,
+      "fraction_unchanged_after_add": 0.12072563171386719,
+      "actual_addition_delta_rms": 23117.80859375
+    }
+  },
+  "verdict": "Meaningful architectural-preservation improvement on this example, with remaining drift.",
+  "execution": "RGA off and on generated on two separately approved H100 workers with identical pinned inference configuration. Completed RGA-on recovered directly from the validated application job after browser wait failed; no substituted image.",
+  "new_gpu_run_for_release": false
+}

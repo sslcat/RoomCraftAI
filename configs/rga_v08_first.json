@@ -1,0 +1,19 @@
+{
+  "steps": 1,
+  "learning_rate": 0.0001,
+  "accumulation": 1,
+  "seed": 42,
+  "weight_decay": 0.0,
+  "clip_norm": 1.0,
+  "architecture_lambda": 0.0,
+  "checkpoint_every": 1,
+  "validation_every": 1,
+  "gradient_checkpointing": true,
+  "deterministic": true,
+  "min_free_gpu_gib": 60.0,
+  "geometry": {
+    "width": 32,
+    "hidden_dim": 3072,
+    "strength": 1.0
+  }
+}

@@ -1,0 +1,66 @@
+name: CPU verification
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  cpu:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.12.23"
+          enable-cache: true
+      - run: uv sync --frozen
+      - run: uv run python scripts/make_fixture.py
+      - run: uv run ruff check .
+      - run: uv run ruff format --check .
+      - run: uv run mypy
+      - run: uv run pytest -q
+        env:
+          HF_HUB_OFFLINE: "1"
+          CUDA_VISIBLE_DEVICES: ""
+  qwen-cpu:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.12.23"
+          enable-cache: true
+      - run: uv sync --project environments/qwen --frozen
+      - run: uv run --project environments/qwen python -m pytest -q
+        env:
+          HF_HUB_OFFLINE: "1"
+          CUDA_VISIBLE_DEVICES: ""
+      - run: uv run --project environments/qwen mypy --cache-dir .cache/mypy-qwen
+      - run: uv run --project environments/qwen python -m compileall -q src tests scripts
+  app:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.12.23"
+          enable-cache: true
+      - run: uv sync --project environments/app --frozen
+      - run: uv run --project environments/app python -m pytest tests/test_app.py tests/test_gaming.py tests/test_studio.py tests/test_rga_release.py -q
+      - run: uv run --project environments/app python -m pip_audit
+      - run: uv run --project environments/app python -m playwright install --with-deps chromium
+        env:
+          PLAYWRIGHT_BROWSERS_PATH: .cache/playwright
+      - name: Browser journey using labeled previous real outputs
+        env:
+          PLAYWRIGHT_BROWSERS_PATH: .cache/playwright
+        run: |
+          mkdir -p .cache
+          uv run --project environments/app python scripts/launch_app.py > .cache/studio.log 2>&1 &
+          studio_pid=$!
+          trap 'kill "$studio_pid" 2>/dev/null || true' EXIT
+          for attempt in $(seq 1 30); do
+            if curl --fail --silent http://127.0.0.1:7860/config > /dev/null; then break; fi
+            sleep 1
+          done
+          uv run --project environments/app python scripts/verify_app.py
+          uv run --project environments/app python scripts/verify_gaming_app.py
+          uv run --project environments/app python scripts/verify_studio.py

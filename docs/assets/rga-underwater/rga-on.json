@@ -1,0 +1,147 @@
+{
+  "backend": "qwen-image-edit-2511",
+  "pipeline_class": "QwenImageEditPlusPipeline",
+  "base": {
+    "repo": "Qwen/Qwen-Image-Edit-2511",
+    "revision": "6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9"
+  },
+  "adapter_sha256": "1be7a8089b2fe037e7458a1b20bff5b76fe133dafe6aa4d3a3691a9772a442e6",
+  "settings": {
+    "size": 1024,
+    "steps": 40,
+    "true_cfg_scale": 4.0,
+    "seed": 42,
+    "negative_prompt": " ",
+    "offload": false
+  },
+  "prompt": "Create a photorealistic gaming setup inside this same photographed room. Preserve the original walls, windows, doors, ceiling, flooring, camera viewpoint and room perspective. Do not add, remove or move architectural openings. Keep existing materials and light sources. Themes decorate the room through furniture and removable accessories, not structural renovation. Keep door swings and walking paths unobstructed. Setup preset: Triple-monitor setup; the equipment selections below take precedence over preset defaults. Use a human-scale straight desk with all feet resting on the floor, sized conservatively for the visible space. Include three monitors in a shallow arc at comfortable viewing height, physically supported by stands or desk-clamped arms; no floating screens. Include one desktop PC tower on a low separate PC stand beside the desk, clear of walking paths. Place an ergonomic gaming chair with plausible pull-out clearance. Place a keyboard, mouse and mousepad naturally on the usable desktop. Include a headset resting on a supported headset stand. Omit speakers. Route visible cables through practical trays or clips; keep walking paths clear. Do not add shelving, even if the theme suggests it. Theme: Underwater Realm. Materials: matte ocean-blue finishes, turquoise details and subtly aquatic textured furniture. Furniture and accessory palette: ocean blue, turquoise and pale sea-glass green. Equipment styling: contemporary gaming hardware with restrained aquatic color accents. Removable decorative accents: small ocean artwork. Theme light inspiration, subordinate to the lighting choice: electric jellyfish-shaped lamps and ocean-blue or turquoise accents when enabled. all aquatic effects are dry decorative objects or electric light; retain an ordinary habitable room. Avoid: no actual water, flooding, aquarium walls, submerged equipment or wet electrical installations. Use immersive themed electric accent lighting with controlled brightness, realistic shadows and natural daylight integration. Keep the room dry and electrical installations plausible. Match camera perspective and furniture scale with credible contact shadows. Do not imply measured fit from this photograph. Preserve the original walls, windows, doors, ceiling, flooring, camera viewpoint and room perspective. Do not add, remove or move architectural openings. Keep existing materials and light sources. Themes decorate the room through furniture and removable accessories, not structural renovation. Keep door swings and walking paths unobstructed.",
+  "input_sha256": "7607b7c632fb158a1a8038837a74d5ca4a3a59520a19654a9a9923042de056a3",
+  "output_sha256": "619a2145d8ca8b541031f617aabb36576c327887e9cc2e92b650ba648545c77a",
+  "source_size": [
+    768,
+    1024
+  ],
+  "working_size": [
+    768,
+    1024
+  ],
+  "dtype": "bfloat16",
+  "quantization": "none",
+  "compositing": "none",
+  "scheduler_class": "FlowMatchEulerDiscreteScheduler",
+  "scheduler_config": {
+    "num_train_timesteps": 1000,
+    "shift": 1.0,
+    "use_dynamic_shifting": true,
+    "base_shift": 0.5,
+    "max_shift": 0.9,
+    "base_image_seq_len": 256,
+    "max_image_seq_len": 8192,
+    "invert_sigmas": false,
+    "shift_terminal": 0.02,
+    "use_karras_sigmas": false,
+    "use_exponential_sigmas": false,
+    "use_beta_sigmas": false,
+    "time_shift_type": "exponential",
+    "stochastic_sampling": false,
+    "_class_name": "FlowMatchEulerDiscreteScheduler",
+    "_diffusers_version": "0.36.0.dev0"
+  },
+  "zero_cond_t": true,
+  "geometry_adapter": {
+    "checkpoint_sha256": "31625ddd4f82f10c8ff08947ffe68aa8d08682813c2b47e11cab15321ae56fca",
+    "config": {
+      "steps": 100,
+      "learning_rate": 0.0001,
+      "accumulation": 4,
+      "seed": 42,
+      "weight_decay": 0.0,
+      "clip_norm": 1.0,
+      "architecture_lambda": 0.0,
+      "checkpoint_every": 10,
+      "validation_every": 10,
+      "gradient_checkpointing": true,
+      "deterministic": true,
+      "min_free_gpu_gib": 60.0,
+      "validation_loss_ceiling": 0.09694809885695577,
+      "validation_patience": 2,
+      "geometry": {
+        "width": 32,
+        "hidden_dim": 3072,
+        "strength": 1.0,
+        "residual_gain": 100000000.0
+      },
+      "format": "roomcraft-rga-v1",
+      "channels": [
+        "canny",
+        "protected_mask",
+        "mask_available",
+        "depth",
+        "depth_available",
+        "x",
+        "y"
+      ],
+      "injection": "target-only-shared-block-residual-divide-L-v1",
+      "base": {
+        "repo": "Qwen/Qwen-Image-Edit-2511",
+        "revision": "6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9"
+      },
+      "frozen_lora_sha256": "1be7a8089b2fe037e7458a1b20bff5b76fe133dafe6aa4d3a3691a9772a442e6",
+      "cache_sha256": "1f0ef1a410f3da46885c25d8dbc28790b23041d99303c66282f6b859bb0fd3f7",
+      "geometry_cache_sha256": "664d1a408805cafe1c98b439f7a035ad0397e7f4ca872335422bbe8baf56557a",
+      "manifest_sha256": "668b368b3dabeac29b9407b61d67f973755d03d9743f6bdb7a397b480411fd31",
+      "objective": "uniform-sigma-target-flow-plus-optional-masked-velocity-v1",
+      "environment": {
+        "packages": {
+          "roomcraft-ai": "0.1.0",
+          "torch": "2.8.0+cu128",
+          "diffusers": "0.37.1",
+          "transformers": "4.57.6",
+          "peft": "0.17.1",
+          "numpy": "2.2.6",
+          "Pillow": "11.3.0"
+        },
+        "cuda": "12.8",
+        "gpu": "NVIDIA H100 80GB HBM3"
+      },
+      "implementation_sha256": {
+        "rga.py": "b3b7231fa622732508a4ac33957e739519419b5533a7fb8d3d04bd16c3ee5a4c",
+        "rga_training.py": "a3f3dc8b42ffbd264973c4bacc37260ca1ea89bdbc25506f78edbec6b9037185",
+        "rga_data.py": "62ef947a06b3ebd8debf6438af813495b249db7ef5fe01798045b1d0cbe8b7b1",
+        "qwen_objective.py": "daf96b9696b2d099887a10fbb675b917a4e1b107d698e821fe5f520c645999df",
+        "checkpoint.py": "7987cb8648b580f57bb3b3ee784061dfb00b5609a4082a0bd586542167c0dd29"
+      },
+      "validation_guard_streak": 0
+    },
+    "strength": 1.0,
+    "geometry_shape": [
+      1,
+      7,
+      1024,
+      768
+    ],
+    "mask_sha256": null,
+    "depth_sha256": null,
+    "intervention": null,
+    "edge_contrast_ablation": false,
+    "first_conditional_forward_residual_diagnostics": {
+      "first_block": {
+        "hidden_dtype": "torch.bfloat16",
+        "residual_dtype": "torch.bfloat16",
+        "hidden_rms": 658230.75,
+        "residual_rms": 23119.29296875,
+        "fraction_unchanged_after_add": 0.0370890311896801,
+        "actual_addition_delta_rms": 23126.1484375
+      },
+      "last_block": {
+        "hidden_dtype": "torch.bfloat16",
+        "residual_dtype": "torch.bfloat16",
+        "hidden_rms": 28370000.0,
+        "residual_rms": 23119.29296875,
+        "fraction_unchanged_after_add": 0.12072563171386719,
+        "actual_addition_delta_rms": 23117.80859375
+      }
+    },
+    "setup_seconds": 1.528005950851366
+  }
+}

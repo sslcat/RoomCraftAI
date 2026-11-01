@@ -1,0 +1,23 @@
+{
+  "foundation": {
+    "repo": "Qwen/Qwen-Image-Edit-2511",
+    "revision": "6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9"
+  },
+  "staging_lora_v06": {
+    "checkpoint": "outputs/v06/trained/pilot/step-000100",
+    "sha256": "1be7a8089b2fe037e7458a1b20bff5b76fe133dafe6aa4d3a3691a9772a442e6",
+    "bytes": 94277832,
+    "public_download": null,
+    "publication": "unpublished; separate final owner approval required",
+    "config_sha256": "3fa226e3f68e32f78515df1c159470156374b1cea0cdcdae92f022b6c966b01a"
+  },
+  "geometry_rga_v09_calibrated": {
+    "checkpoint": "runs/v09-rga-calibrated/pilot/step-000100",
+    "sha256": "31625ddd4f82f10c8ff08947ffe68aa8d08682813c2b47e11cab15321ae56fca",
+    "bytes": 2915656,
+    "public_download": null,
+    "experimental": true,
+    "architectural_benefit": "unproven",
+    "config_sha256": "a0f84d8ec7c8773a7dbf4d5da2d9e52c05d48420b2988721431de9e024302537"
+  }
+}

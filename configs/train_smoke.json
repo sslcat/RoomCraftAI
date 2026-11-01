@@ -1,0 +1,11 @@
+{
+  "size": 512,
+  "steps": 2,
+  "rank": 4,
+  "alpha": 4.0,
+  "accumulation": 1,
+  "checkpoint_every": 1,
+  "validate_every": 1,
+  "validation_samples": 1,
+  "allow_fixture": true
+}

@@ -1,0 +1,2073 @@
+{
+  "format": "roomcraft-release-manifest-v1",
+  "version": "1.1.0",
+  "source_files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 49,
+      "sha256": "5796a644356319b0823bd25ea5bceb862ffb768157f6ad8b22063bdd1b3c15a0",
+      "source_sha256": "5796a644356319b0823bd25ea5bceb862ffb768157f6ad8b22063bdd1b3c15a0",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "2f948bf8c6d024b10b4d7198a5f17ad6466dc4a29a61566ed2ac0819f4827748"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 2513,
+      "sha256": "44d78f95fc80537a03ec4a2147a0828480ec8d4a185270638c4385a520a15612",
+      "source_sha256": "44d78f95fc80537a03ec4a2147a0828480ec8d4a185270638c4385a520a15612",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "44d78f95fc80537a03ec4a2147a0828480ec8d4a185270638c4385a520a15612"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 753,
+      "sha256": "8b0de703deb7d2366d8f46b6d4c18eca39be588afc0f5a234794dadb7e9f5435",
+      "source_sha256": "8b0de703deb7d2366d8f46b6d4c18eca39be588afc0f5a234794dadb7e9f5435",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "16ca5afc2e4db465d154340354a3fbce1bc9bb8923ecbc2fcd1d8718bea3718e"
+    },
+    {
+      "path": ".python-version",
+      "bytes": 8,
+      "sha256": "845c494b4a7e1a741db19fd42eda239d3ee03b65f08276008943349a3055c9cc",
+      "source_sha256": "845c494b4a7e1a741db19fd42eda239d3ee03b65f08276008943349a3055c9cc",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "845c494b4a7e1a741db19fd42eda239d3ee03b65f08276008943349a3055c9cc"
+    },
+    {
+      "path": "configs/adapters.json",
+      "bytes": 901,
+      "sha256": "63261bfed900e4db379a30256014ee4966d161f58976884f9d81dad21eb6a19d",
+      "source_sha256": "63261bfed900e4db379a30256014ee4966d161f58976884f9d81dad21eb6a19d",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "c5ab2c9f2de3d115d7b247cab76d37dd4d1d26010bbbb0222b96f755cca40078"
+    },
+    {
+      "path": "configs/app_approval.example.json",
+      "bytes": 253,
+      "sha256": "be47c2c509383e1123704b0196e4ca7ba7571f96987bb2220a901abbbf314557",
+      "source_sha256": "be47c2c509383e1123704b0196e4ca7ba7571f96987bb2220a901abbbf314557",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "be47c2c509383e1123704b0196e4ca7ba7571f96987bb2220a901abbbf314557"
+    },
+    {
+      "path": "configs/app_worker.json",
+      "bytes": 310,
+      "sha256": "539afd554d57a4c040e72950616542c785f274354a82b86ed37fb423d651eff1",
+      "source_sha256": "539afd554d57a4c040e72950616542c785f274354a82b86ed37fb423d651eff1",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "539afd554d57a4c040e72950616542c785f274354a82b86ed37fb423d651eff1"
+    },
+    {
+      "path": "configs/dataset_v05.json",
+      "bytes": 397,
+      "sha256": "ca15d8b46fb3eb2bf61249196f1954e9f23c28dfa689570caf3bd895f01fd489",
+      "source_sha256": "ca15d8b46fb3eb2bf61249196f1954e9f23c28dfa689570caf3bd895f01fd489",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "ca15d8b46fb3eb2bf61249196f1954e9f23c28dfa689570caf3bd895f01fd489"
+    },
+    {
+      "path": "configs/dataset_v10_gaming.json",
+      "bytes": 379,
+      "sha256": "b5b133693f9e2566202f4cb67d2533254e3b3ed9561f91ae3a2410d2f11c0d0f",
+      "source_sha256": "b5b133693f9e2566202f4cb67d2533254e3b3ed9561f91ae3a2410d2f11c0d0f",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "b5b133693f9e2566202f4cb67d2533254e3b3ed9561f91ae3a2410d2f11c0d0f"
+    },
+    {
+      "path": "configs/dataset_v10_split.json",
+      "bytes": 523,
+      "sha256": "8760985c497276079c338c4ef31a1e3240738292b2bafc0c7b275afa66acb259",
+      "source_sha256": "8760985c497276079c338c4ef31a1e3240738292b2bafc0c7b275afa66acb259",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "8760985c497276079c338c4ef31a1e3240738292b2bafc0c7b275afa66acb259"
+    },
+    {
+      "path": "configs/overnight_v06.json",
+      "bytes": 1481,
+      "sha256": "12e4d947dff316146be259bf25228434d97ac41565b3e87e7cc69430e9f56379",
+      "source_sha256": "12e4d947dff316146be259bf25228434d97ac41565b3e87e7cc69430e9f56379",
+      "transform": "v1.1.0 release metadata/template promotion; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "0babc4c99c1fad1921790c0e6a97d5d14e9ccadae1eb9c985fd4fb3861db55bb"
+    },
+    {
+      "path": "configs/qwen_pairs_template.json",
+      "bytes": 89,
+      "sha256": "ed3e7cd347592d14bf38dc214d322d126392a2a263a729be6abdef420c00aeb3",
+      "source_sha256": "ed3e7cd347592d14bf38dc214d322d126392a2a263a729be6abdef420c00aeb3",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "ed3e7cd347592d14bf38dc214d322d126392a2a263a729be6abdef420c00aeb3"
+    },
+    {
+      "path": "configs/qwen_train_pilot.json",
+      "bytes": 293,
+      "sha256": "3b89621017226dfbe35c4c864a4fa16e85ecb72d799962f0b963dedd4ebe2551",
+      "source_sha256": "3b89621017226dfbe35c4c864a4fa16e85ecb72d799962f0b963dedd4ebe2551",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "3b89621017226dfbe35c4c864a4fa16e85ecb72d799962f0b963dedd4ebe2551"
+    },
+    {
+      "path": "configs/qwen_train_smoke.json",
+      "bytes": 289,
+      "sha256": "9bace58e5cd53c8373e9788837d4fe92a1bda88336a65ac5dee2b42945088d12",
+      "source_sha256": "9bace58e5cd53c8373e9788837d4fe92a1bda88336a65ac5dee2b42945088d12",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "9bace58e5cd53c8373e9788837d4fe92a1bda88336a65ac5dee2b42945088d12"
+    },
+    {
+      "path": "configs/qwen_train_v06_first.json",
+      "bytes": 289,
+      "sha256": "ce73caa4a5b7fe8f49c7e07f84f08b3b09cca02750bd8bec6540354021d93045",
+      "source_sha256": "ce73caa4a5b7fe8f49c7e07f84f08b3b09cca02750bd8bec6540354021d93045",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "9476c6ee446df74ec4d7d0c2506c88f579ad238ed31a4dfd0997728ae666bd3b"
+    },
+    {
+      "path": "configs/qwen_train_v06_pilot.json",
+      "bytes": 293,
+      "sha256": "3b89621017226dfbe35c4c864a4fa16e85ecb72d799962f0b963dedd4ebe2551",
+      "source_sha256": "3b89621017226dfbe35c4c864a4fa16e85ecb72d799962f0b963dedd4ebe2551",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "86e2434ea0e6612e7dba00561cb6ea4e6a53e01bf2131cd0ede84230efdba7ef"
+    },
+    {
+      "path": "configs/qwen_train_v06_smoke.json",
+      "bytes": 289,
+      "sha256": "9bace58e5cd53c8373e9788837d4fe92a1bda88336a65ac5dee2b42945088d12",
+      "source_sha256": "9bace58e5cd53c8373e9788837d4fe92a1bda88336a65ac5dee2b42945088d12",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "778640947a0dfa601ed3a54cfec54f182246eeefde7701946725981f05e0610e"
+    },
+    {
+      "path": "configs/release_policy.json",
+      "bytes": 1560,
+      "sha256": "c998feee05b2feac122bda5a28be0e515ec3659743a38d8b49cdbe1d7b13dbbd",
+      "source_sha256": "c998feee05b2feac122bda5a28be0e515ec3659743a38d8b49cdbe1d7b13dbbd",
+      "transform": "v1.1.0 release metadata/template promotion; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "0855747d9e6f60cda8ec51d5232849e65ea118359bc0592400a1461f484485e8"
+    },
+    {
+      "path": "configs/rga_v08_experiment.json",
+      "bytes": 809,
+      "sha256": "34930a40e4830325ee0bfdc5872f28700db2e3858b5c03edc045d07d925057d3",
+      "source_sha256": "34930a40e4830325ee0bfdc5872f28700db2e3858b5c03edc045d07d925057d3",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "35766186d58428d8ffff0c8877f905537eb8e1fe6225300d348f22edd89255e3"
+    },
+    {
+      "path": "configs/rga_v08_first.json",
+      "bytes": 371,
+      "sha256": "e23b93d982d65fea0d95a07442ca22cc9ac7d4c0be8cbfa555d0a51cb3f180c1",
+      "source_sha256": "e23b93d982d65fea0d95a07442ca22cc9ac7d4c0be8cbfa555d0a51cb3f180c1",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "23318c4272db0360719460c0e84adcf4e48a260bc2b785000aae057a8e2993e3"
+    },
+    {
+      "path": "configs/rga_v08_pilot.json",
+      "bytes": 375,
+      "sha256": "7ddb3731e34a1b57b5690bf26e4e194f03f9b2ce7554cd52f0f9476161e74460",
+      "source_sha256": "7ddb3731e34a1b57b5690bf26e4e194f03f9b2ce7554cd52f0f9476161e74460",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "5f57f3622dfb1e8d0ff359fa994fb4789d3d72af3c079ab310e41a628a0ef36d"
+    },
+    {
+      "path": "configs/rga_v08_smoke.json",
+      "bytes": 371,
+      "sha256": "bca3c4ff85532ec47b4ee32a3566fdd17527b8ce9da4dce9dd393dea6901c788",
+      "source_sha256": "bca3c4ff85532ec47b4ee32a3566fdd17527b8ce9da4dce9dd393dea6901c788",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "49c53ea8800eea8ae2b5da2706f8bd5d1c894af528d96cbe9e2d8aa3cd79e93f"
+    },
+    {
+      "path": "configs/rga_v09_calibrated_pilot.json",
+      "bytes": 487,
+      "sha256": "64f47e89e1f8ed39a9d5020cd3310e335be4c119ecf0f36d20c8d33570125b09",
+      "source_sha256": "64f47e89e1f8ed39a9d5020cd3310e335be4c119ecf0f36d20c8d33570125b09",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "321fd88a3cb3796d455203bc47d71a376330ec1440b8fcedce0ca7e963cf7899"
+    },
+    {
+      "path": "configs/rga_v09_calibrated_smoke.json",
+      "bytes": 405,
+      "sha256": "8a55dcbb271a12bdc7af63560df01d5234dd4bfa8ed88cb25a5bb3f819c86f4c",
+      "source_sha256": "8a55dcbb271a12bdc7af63560df01d5234dd4bfa8ed88cb25a5bb3f819c86f4c",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "acf70d56899aef0db770a3f3af083ab9a3839409e19f1cf15239d6fb0d17e1c0"
+    },
+    {
+      "path": "configs/runpod_v03.json",
+      "bytes": 1451,
+      "sha256": "e577d47f34ef49c4dbdc6bcd502badf64a79ad800d2dc41cdc8b0cbb3350faa0",
+      "source_sha256": "e577d47f34ef49c4dbdc6bcd502badf64a79ad800d2dc41cdc8b0cbb3350faa0",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "e577d47f34ef49c4dbdc6bcd502badf64a79ad800d2dc41cdc8b0cbb3350faa0"
+    },
+    {
+      "path": "configs/train.json",
+      "bytes": 314,
+      "sha256": "b72dfcbadc05b7c5c68aa1214b70b4f7da76e21fb6bc597cfcea7c1d17746b3b",
+      "source_sha256": "b72dfcbadc05b7c5c68aa1214b70b4f7da76e21fb6bc597cfcea7c1d17746b3b",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "b72dfcbadc05b7c5c68aa1214b70b4f7da76e21fb6bc597cfcea7c1d17746b3b"
+    },
+    {
+      "path": "configs/train_smoke.json",
+      "bytes": 182,
+      "sha256": "eae66de9ed95488cf20842f0b48e896a29fdfc9b59dc7706009ed0e4912edb85",
+      "source_sha256": "eae66de9ed95488cf20842f0b48e896a29fdfc9b59dc7706009ed0e4912edb85",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "eae66de9ed95488cf20842f0b48e896a29fdfc9b59dc7706009ed0e4912edb85"
+    },
+    {
+      "path": "configs/v03_comparison.json",
+      "bytes": 3036,
+      "sha256": "cb5a213098aa9de1e1e4c8dd4fe3af0164ac553aca739e782fd3acfcdb80544c",
+      "source_sha256": "cb5a213098aa9de1e1e4c8dd4fe3af0164ac553aca739e782fd3acfcdb80544c",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "cb5a213098aa9de1e1e4c8dd4fe3af0164ac553aca739e782fd3acfcdb80544c"
+    },
+    {
+      "path": "configs/v06_approval_template.json",
+      "bytes": 838,
+      "sha256": "33cdeda8b83f8f70a710f3be6d2a1f81cad60aeef3c2b946271244d9643b92d8",
+      "source_sha256": "33cdeda8b83f8f70a710f3be6d2a1f81cad60aeef3c2b946271244d9643b92d8",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "33cdeda8b83f8f70a710f3be6d2a1f81cad60aeef3c2b946271244d9643b92d8"
+    },
+    {
+      "path": "configs/v07_evaluation.json",
+      "bytes": 9083,
+      "sha256": "d32cebe7c38536ceeb2e8c52ca4e271a360d7798adb565a2b190909b2d66b613",
+      "source_sha256": "d32cebe7c38536ceeb2e8c52ca4e271a360d7798adb565a2b190909b2d66b613",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "ec14021f616b3f1f957d05e1f3bd4cc2f75b7ae20405e579aa072bc03a4c5d3d"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 2832,
+      "sha256": "1e4d3be233f33b9024a0221b973bfecfdfe644c2092b75f167bc55ea57f440ec",
+      "source_sha256": "1e4d3be233f33b9024a0221b973bfecfdfe644c2092b75f167bc55ea57f440ec",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "1f6904e272d3388500ce4c2a6283e565b75bd513235480b48fd7a9998fd2f953"
+    },
+    {
+      "path": "docs/ADAPTER_DISTRIBUTION.md",
+      "bytes": 1763,
+      "sha256": "a43b8e59931607f2b16e2f5f150ce42280271667acbaae21d9fc4563011d71d4",
+      "source_sha256": "a43b8e59931607f2b16e2f5f150ce42280271667acbaae21d9fc4563011d71d4",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "dd3f1ba26343b47d569c77ad8f2a248d9dbeb1cdf82a6adca9ce2cfb53a8309f"
+    },
+    {
+      "path": "docs/APP_GUIDE.md",
+      "bytes": 7278,
+      "sha256": "56822d27c58cd3dec6b6360e1d123990b19935662e2e0c30dd4b9e5a1120b74d",
+      "source_sha256": "56822d27c58cd3dec6b6360e1d123990b19935662e2e0c30dd4b9e5a1120b74d",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "d19c2e1e2c58b196fe44eae209644a178a0213bae2db75a527e3af873ef88912"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 6713,
+      "sha256": "616783e4bf0901ea91ac897c22b0ed328ee3212c5c301357d94f408cb2f9dbb7",
+      "source_sha256": "616783e4bf0901ea91ac897c22b0ed328ee3212c5c301357d94f408cb2f9dbb7",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "d24bc5ccdfdf54f0d28abb2d5ef8588bff31447bbb2d30ded673c714731da04b"
+    },
+    {
+      "path": "docs/assets/example/base.json",
+      "bytes": 1671,
+      "sha256": "395d7dc83ee9c13c81caadf1208c3f32624b81b995cf034b3677e5542cf1ec77",
+      "source_sha256": "395d7dc83ee9c13c81caadf1208c3f32624b81b995cf034b3677e5542cf1ec77",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "de7811d125995e9a7533541686de120bb3a1b222fb51c142d94c3e750bcbf154"
+    },
+    {
+      "path": "docs/assets/example/base.png",
+      "bytes": 1037540,
+      "sha256": "25855484fe6d563c479218d77abcda36046af265aab7b0e5738481a006e844e4",
+      "source_sha256": "25855484fe6d563c479218d77abcda36046af265aab7b0e5738481a006e844e4",
+      "transform": null,
+      "license_scope": "CC-BY-2.0",
+      "rc3_sha256": "25855484fe6d563c479218d77abcda36046af265aab7b0e5738481a006e844e4"
+    },
+    {
+      "path": "docs/assets/example/LICENSE.md",
+      "bytes": 2082,
+      "sha256": "660d6caecadde43f6bba42d000978c7817ed93859fb63220244ad889c909774c",
+      "source_sha256": "660d6caecadde43f6bba42d000978c7817ed93859fb63220244ad889c909774c",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "29e72c82493ee4f3411f6f164cae0ef21a367c050a1e48b7c97945279993bd66"
+    },
+    {
+      "path": "docs/assets/example/manifest.json",
+      "bytes": 631,
+      "sha256": "a9b4ca6e4ba9c08f648449717da02bd537cfca0a081d1062dcdfccb9bc2c8c4f",
+      "source_sha256": "a9b4ca6e4ba9c08f648449717da02bd537cfca0a081d1062dcdfccb9bc2c8c4f",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "a6be61466974d1bbdfed350e90ec0d2121fdacacff6c9907aa4163964ec5aa4a"
+    },
+    {
+      "path": "docs/assets/example/roomcraft.json",
+      "bytes": 1752,
+      "sha256": "26cdfd9d23e85ffb0f7dac9f567f55183b30eb16aa97140ed9c07a889420a305",
+      "source_sha256": "26cdfd9d23e85ffb0f7dac9f567f55183b30eb16aa97140ed9c07a889420a305",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "3900141b59a4fe197eb2fe9a1ecfa5b36fec26ca437ccb65187b9f2e0ef510c5"
+    },
+    {
+      "path": "docs/assets/example/roomcraft.png",
+      "bytes": 1028642,
+      "sha256": "f34a6d062549e73b9967c09841f73c649f214a896d68dce1d5a4c9a4363f6b92",
+      "source_sha256": "f34a6d062549e73b9967c09841f73c649f214a896d68dce1d5a4c9a4363f6b92",
+      "transform": null,
+      "license_scope": "CC-BY-2.0",
+      "rc3_sha256": "f34a6d062549e73b9967c09841f73c649f214a896d68dce1d5a4c9a4363f6b92"
+    },
+    {
+      "path": "docs/assets/example/source.png",
+      "bytes": 1096315,
+      "sha256": "1bf02717d182ebf49e506ad4763d1915333b07461430bc5d2a5aac9b3f2908ed",
+      "source_sha256": "1bf02717d182ebf49e506ad4763d1915333b07461430bc5d2a5aac9b3f2908ed",
+      "transform": null,
+      "license_scope": "CC-BY-2.0",
+      "rc3_sha256": "1bf02717d182ebf49e506ad4763d1915333b07461430bc5d2a5aac9b3f2908ed"
+    },
+    {
+      "path": "docs/assets/live-smoke.png",
+      "bytes": 872939,
+      "sha256": "a284bae3ddf4f17946c019b2d870f96b7d617f38e868f4d6383aaa098ca1daa5",
+      "source_sha256": "a284bae3ddf4f17946c019b2d870f96b7d617f38e868f4d6383aaa098ca1daa5",
+      "transform": null,
+      "license_scope": "CC-BY-2.0",
+      "rc3_sha256": "a284bae3ddf4f17946c019b2d870f96b7d617f38e868f4d6383aaa098ca1daa5"
+    },
+    {
+      "path": "docs/assets/preservation-window.png",
+      "bytes": 1002752,
+      "sha256": "edc3e5f70359c719e69be58205e7a8132f6efe5fc8bfbb07817c317e3230de10",
+      "source_sha256": "edc3e5f70359c719e69be58205e7a8132f6efe5fc8bfbb07817c317e3230de10",
+      "transform": null,
+      "license_scope": "CC-BY-2.0",
+      "rc3_sha256": "edc3e5f70359c719e69be58205e7a8132f6efe5fc8bfbb07817c317e3230de10"
+    },
+    {
+      "path": "docs/assets/rga-underwater/comparison.png",
+      "bytes": 3283317,
+      "sha256": "53e7e27f72313fa1036e08d2c34c54086dd239cda5c747fdd97bb4dd4754bf46",
+      "source_sha256": "53e7e27f72313fa1036e08d2c34c54086dd239cda5c747fdd97bb4dd4754bf46",
+      "transform": null,
+      "license_scope": "CC-BY-2.0",
+      "rc3_sha256": "53e7e27f72313fa1036e08d2c34c54086dd239cda5c747fdd97bb4dd4754bf46"
+    },
+    {
+      "path": "docs/assets/rga-underwater/index.html",
+      "bytes": 1789,
+      "sha256": "4786b65ff622f2a4bf0b637ff4785eb9bf4a15f91938cf981563c4fba5de42c5",
+      "source_sha256": "4786b65ff622f2a4bf0b637ff4785eb9bf4a15f91938cf981563c4fba5de42c5",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "4786b65ff622f2a4bf0b637ff4785eb9bf4a15f91938cf981563c4fba5de42c5"
+    },
+    {
+      "path": "docs/assets/rga-underwater/LICENSE.md",
+      "bytes": 987,
+      "sha256": "c984e2e680752eb5f58e43339a5ceb4fb4baf1950333873fbc55c693037a554c",
+      "source_sha256": "c984e2e680752eb5f58e43339a5ceb4fb4baf1950333873fbc55c693037a554c",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "0aecb856646c2cc2c466503ccdd9c74b266e9ee4b0b811f443aaf1048035d471"
+    },
+    {
+      "path": "docs/assets/rga-underwater/original.png",
+      "bytes": 969246,
+      "sha256": "12b56067938cfcc358c83920bee755ad1c512f04cac4b7f9d0fa7ade2ee9a86f",
+      "source_sha256": "12b56067938cfcc358c83920bee755ad1c512f04cac4b7f9d0fa7ade2ee9a86f",
+      "transform": null,
+      "license_scope": "CC-BY-2.0",
+      "rc3_sha256": "12b56067938cfcc358c83920bee755ad1c512f04cac4b7f9d0fa7ade2ee9a86f"
+    },
+    {
+      "path": "docs/assets/rga-underwater/rga-off.json",
+      "bytes": 3963,
+      "sha256": "50ba97401e4ae377f7f9a3ce26265351cfea1075a1568e65968dadeb97798ab1",
+      "source_sha256": "50ba97401e4ae377f7f9a3ce26265351cfea1075a1568e65968dadeb97798ab1",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "75c354b1f1a3896b662767a1e16ccda508e2552b4f3f82f1929e7f4c08131ef2"
+    },
+    {
+      "path": "docs/assets/rga-underwater/rga-off.png",
+      "bytes": 969246,
+      "sha256": "12b56067938cfcc358c83920bee755ad1c512f04cac4b7f9d0fa7ade2ee9a86f",
+      "source_sha256": "12b56067938cfcc358c83920bee755ad1c512f04cac4b7f9d0fa7ade2ee9a86f",
+      "transform": null,
+      "license_scope": "CC-BY-2.0",
+      "rc3_sha256": "12b56067938cfcc358c83920bee755ad1c512f04cac4b7f9d0fa7ade2ee9a86f"
+    },
+    {
+      "path": "docs/assets/rga-underwater/rga-on.json",
+      "bytes": 7337,
+      "sha256": "dd9d3c0914d197f335c62a881cb375b22de9a4fe546ee741149e58c1794b0959",
+      "source_sha256": "dd9d3c0914d197f335c62a881cb375b22de9a4fe546ee741149e58c1794b0959",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "27e63d5b2a83e612abf6c5aa5eb2effd4dd7cb4ea8d7a729cf969b78c5a3f883"
+    },
+    {
+      "path": "docs/assets/rga-underwater/rga-on.png",
+      "bytes": 1004503,
+      "sha256": "619a2145d8ca8b541031f617aabb36576c327887e9cc2e92b650ba648545c77a",
+      "source_sha256": "619a2145d8ca8b541031f617aabb36576c327887e9cc2e92b650ba648545c77a",
+      "transform": null,
+      "license_scope": "CC-BY-2.0",
+      "rc3_sha256": "619a2145d8ca8b541031f617aabb36576c327887e9cc2e92b650ba648545c77a"
+    },
+    {
+      "path": "docs/assets/rga-underwater/source.png",
+      "bytes": 1075683,
+      "sha256": "7607b7c632fb158a1a8038837a74d5ca4a3a59520a19654a9a9923042de056a3",
+      "source_sha256": "7607b7c632fb158a1a8038837a74d5ca4a3a59520a19654a9a9923042de056a3",
+      "transform": null,
+      "license_scope": "CC-BY-2.0",
+      "rc3_sha256": "7607b7c632fb158a1a8038837a74d5ca4a3a59520a19654a9a9923042de056a3"
+    },
+    {
+      "path": "docs/assets/studio-final-mobile.png",
+      "bytes": 161933,
+      "sha256": "d1df3570a6dac63c68a7559493230b934e181d84e8cd24df53f27b122a321339",
+      "source_sha256": "d1df3570a6dac63c68a7559493230b934e181d84e8cd24df53f27b122a321339",
+      "transform": null,
+      "license_scope": "CC-BY-2.0",
+      "rc3_sha256": "d1df3570a6dac63c68a7559493230b934e181d84e8cd24df53f27b122a321339"
+    },
+    {
+      "path": "docs/assets/studio-final.png",
+      "bytes": 211199,
+      "sha256": "3b1417a7ecb4b99958bb9a0fcccd7e3d3f7f92d6971d0731d5c024dab89b8e8c",
+      "source_sha256": "3b1417a7ecb4b99958bb9a0fcccd7e3d3f7f92d6971d0731d5c024dab89b8e8c",
+      "transform": null,
+      "license_scope": "CC-BY-2.0",
+      "rc3_sha256": "3b1417a7ecb4b99958bb9a0fcccd7e3d3f7f92d6971d0731d5c024dab89b8e8c"
+    },
+    {
+      "path": "docs/assets/studio-rc3.png",
+      "bytes": 290161,
+      "sha256": "9e1f4c8302b72059b92b59f83b59b34cd092a96b4917b35f77e7ff1352721954",
+      "source_sha256": "9e1f4c8302b72059b92b59f83b59b34cd092a96b4917b35f77e7ff1352721954",
+      "transform": null,
+      "license_scope": "CC-BY-2.0",
+      "rc3_sha256": "9e1f4c8302b72059b92b59f83b59b34cd092a96b4917b35f77e7ff1352721954"
+    },
+    {
+      "path": "docs/assets/studio-v11-narrow.png",
+      "bytes": 361090,
+      "sha256": "9aac7db7d98fe9c4559979ccaac89a0e5fb97c96a2b75c54d084495254588cbb",
+      "source_sha256": "9aac7db7d98fe9c4559979ccaac89a0e5fb97c96a2b75c54d084495254588cbb",
+      "transform": null,
+      "license_scope": "CC-BY-2.0",
+      "rc3_sha256": "9aac7db7d98fe9c4559979ccaac89a0e5fb97c96a2b75c54d084495254588cbb"
+    },
+    {
+      "path": "docs/assets/studio-v11.png",
+      "bytes": 513911,
+      "sha256": "9e6c271f6b8582f7fdd20d2ca4b032778d2ef718cce4c2db13439a3c2dfdc92a",
+      "source_sha256": "9e6c271f6b8582f7fdd20d2ca4b032778d2ef718cce4c2db13439a3c2dfdc92a",
+      "transform": null,
+      "license_scope": "CC-BY-2.0",
+      "rc3_sha256": "9e6c271f6b8582f7fdd20d2ca4b032778d2ef718cce4c2db13439a3c2dfdc92a"
+    },
+    {
+      "path": "docs/assets/studio.png",
+      "bytes": 794772,
+      "sha256": "cd559b0fbbb26051c11868f59268469b2003cb066128e0c2c505d1807ba3d471",
+      "source_sha256": "cd559b0fbbb26051c11868f59268469b2003cb066128e0c2c505d1807ba3d471",
+      "transform": null,
+      "license_scope": "CC-BY-2.0",
+      "rc3_sha256": "cd559b0fbbb26051c11868f59268469b2003cb066128e0c2c505d1807ba3d471"
+    },
+    {
+      "path": "docs/DATASET_GENERATION.md",
+      "bytes": 9954,
+      "sha256": "924656684d1839edc303f31e6f3a3dc2d7e43d2f763598b17e7260b326e072a5",
+      "source_sha256": "924656684d1839edc303f31e6f3a3dc2d7e43d2f763598b17e7260b326e072a5",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "6d0ec20b56b4b0405356c69f445c91fd1569b3c69176024c4105caa8752f800d"
+    },
+    {
+      "path": "docs/DATASETS.md",
+      "bytes": 5988,
+      "sha256": "48e06229e02e1bf08cfe5d08bc45b0e02f150962c821bdc508ee172781bb15ee",
+      "source_sha256": "48e06229e02e1bf08cfe5d08bc45b0e02f150962c821bdc508ee172781bb15ee",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "48e06229e02e1bf08cfe5d08bc45b0e02f150962c821bdc508ee172781bb15ee"
+    },
+    {
+      "path": "docs/DATASETS_V04.md",
+      "bytes": 9012,
+      "sha256": "f7c7260d2175b7d43c4a5eff358bb10a09e2af2ef1c62e0f4f01e9959159e899",
+      "source_sha256": "f7c7260d2175b7d43c4a5eff358bb10a09e2af2ef1c62e0f4f01e9959159e899",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "f7c7260d2175b7d43c4a5eff358bb10a09e2af2ef1c62e0f4f01e9959159e899"
+    },
+    {
+      "path": "docs/EVALUATION.md",
+      "bytes": 3927,
+      "sha256": "7c6510b2969a92db066c4e3b1eb0b5e66d4da84b4d47aad0fc81a4b54f840dc9",
+      "source_sha256": "7c6510b2969a92db066c4e3b1eb0b5e66d4da84b4d47aad0fc81a4b54f840dc9",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "7c6510b2969a92db066c4e3b1eb0b5e66d4da84b4d47aad0fc81a4b54f840dc9"
+    },
+    {
+      "path": "docs/FINAL_POLISH.md",
+      "bytes": 5396,
+      "sha256": "92b8d2d25ab8b53b9f697e8a81b58666b2f7f2065c279c071b880db1b0559168",
+      "source_sha256": "92b8d2d25ab8b53b9f697e8a81b58666b2f7f2065c279c071b880db1b0559168",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "e9462bdeedf8b2bc2fefa5611151d3b9dd67042ea9646e5070b5be382958e0ae"
+    },
+    {
+      "path": "docs/GAMING_SETUP_MODEL.md",
+      "bytes": 10026,
+      "sha256": "d89f23a98912bece0127a0e4197b8932b18f6000f595cd5a5d7c1b1d3a29b963",
+      "source_sha256": "d89f23a98912bece0127a0e4197b8932b18f6000f595cd5a5d7c1b1d3a29b963",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "d89f23a98912bece0127a0e4197b8932b18f6000f595cd5a5d7c1b1d3a29b963"
+    },
+    {
+      "path": "docs/GAMING_STUDIO.md",
+      "bytes": 6212,
+      "sha256": "778e88d3c7bc9102fe289c642e78b7ed20aebfe708e5bd963097dcb89bcec2ae",
+      "source_sha256": "778e88d3c7bc9102fe289c642e78b7ed20aebfe708e5bd963097dcb89bcec2ae",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "3ce96baf4e5caa642a694d3413858841b50b4ed8851db77dbfe0b428420fdb0b"
+    },
+    {
+      "path": "docs/GEOMETRY_ADAPTER.md",
+      "bytes": 24370,
+      "sha256": "1d0752ea61015ad93d2cfc8ddb5fecc8cdaa1213fbb18d292bbd43c601df74ce",
+      "source_sha256": "1d0752ea61015ad93d2cfc8ddb5fecc8cdaa1213fbb18d292bbd43c601df74ce",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "2f2a9d73be0cdbd1da4b5ff57890a9e3c72d34990fd6d44eab96f03b1306a31e"
+    },
+    {
+      "path": "docs/INFERENCE.md",
+      "bytes": 3576,
+      "sha256": "d059938032b5e8c4febb07307593a9e8d7d8d492fd250c1b7327a566e4e4930f",
+      "source_sha256": "d059938032b5e8c4febb07307593a9e8d7d8d492fd250c1b7327a566e4e4930f",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "cd3a194bdc17597f935fc6472a1a1d510b85540f75ad7581ef53a03bdf0749d7"
+    },
+    {
+      "path": "docs/licenses/APACHE_2.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "source_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "transform": null,
+      "license_scope": "SEE-NOTICE",
+      "rc3_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "docs/licenses/qwen_license_record.json",
+      "bytes": 753,
+      "sha256": "016dee5fa7561c04e92921b274707083da863374ae916bd85291e84c649f999a",
+      "source_sha256": "016dee5fa7561c04e92921b274707083da863374ae916bd85291e84c649f999a",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "SEE-NOTICE",
+      "rc3_sha256": "b8fa725a9393db05f4547f78002ff073d50c545b30543e90fe8080a125488d27"
+    },
+    {
+      "path": "docs/MODEL_CARD.md",
+      "bytes": 5680,
+      "sha256": "22638d1a33479910451fb7546a8259b659a81b965c669fbd5fbd5523a32aa96c",
+      "source_sha256": "22638d1a33479910451fb7546a8259b659a81b965c669fbd5fbd5523a32aa96c",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "796aa72d3c69cf90bdeafc95e1b02647d61a3a28cafc465fd6384752c03c3e4b"
+    },
+    {
+      "path": "docs/MODEL_CARD_V06_PILOT.md",
+      "bytes": 3065,
+      "sha256": "adea072dddaa9ea804bfdf587e59bb016e0fc3eaf8ccf9aed532341716a65bcd",
+      "source_sha256": "adea072dddaa9ea804bfdf587e59bb016e0fc3eaf8ccf9aed532341716a65bcd",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "44dec62529fccf183b815e4b9564bdf1130f5f9d418c9df53f00b64c74c6f21c"
+    },
+    {
+      "path": "docs/MODEL_SELECTION.md",
+      "bytes": 6327,
+      "sha256": "19c73915499696d8c9b9d13269176f0b44369035d824199022ee253bc38c301e",
+      "source_sha256": "19c73915499696d8c9b9d13269176f0b44369035d824199022ee253bc38c301e",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "619e36d7d0bf758c0ceb9518ce59366aa17227b10f1ca993c2b5cea4d6ecf952"
+    },
+    {
+      "path": "docs/QWEN_MODEL_CARD.md",
+      "bytes": 2909,
+      "sha256": "19b3731cdf267e04eb193b14629c01cf12d2453081efe122ed17fbe7a91a5c6f",
+      "source_sha256": "19b3731cdf267e04eb193b14629c01cf12d2453081efe122ed17fbe7a91a5c6f",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "19b3731cdf267e04eb193b14629c01cf12d2453081efe122ed17fbe7a91a5c6f"
+    },
+    {
+      "path": "docs/QWEN_TRAINING.md",
+      "bytes": 6671,
+      "sha256": "31670eaff377016632bef19f3177f394fae711d3fccfe8c23b9fbe6933620081",
+      "source_sha256": "31670eaff377016632bef19f3177f394fae711d3fccfe8c23b9fbe6933620081",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "2e09bba0cada6533454a7a5aae088250e825a7da580900ca594281b3b8862ebd"
+    },
+    {
+      "path": "docs/QWEN_TRAINING_V04.md",
+      "bytes": 10895,
+      "sha256": "7e2ecce13cf5e99c9b2f9b4be08463b94b59760d01beb9e467e113a1661e7242",
+      "source_sha256": "7e2ecce13cf5e99c9b2f9b4be08463b94b59760d01beb9e467e113a1661e7242",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "35aab2fe47461eb7ccfd92b786ec14fc65525d3a6cb3a0299b354ca767c201e8"
+    },
+    {
+      "path": "docs/reproducibility/research-v10-base.uv.lock",
+      "bytes": 94382,
+      "sha256": "3b7bbdb992c749bd8380c6a4222e322f6499308f4007ccc81ea4665eb4d90d1a",
+      "source_sha256": "3b7bbdb992c749bd8380c6a4222e322f6499308f4007ccc81ea4665eb4d90d1a",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "3b7bbdb992c749bd8380c6a4222e322f6499308f4007ccc81ea4665eb4d90d1a"
+    },
+    {
+      "path": "docs/reproducibility/research-v10-qwen.uv.lock",
+      "bytes": 98886,
+      "sha256": "5cfddb6274e150d0307da457f5fed7a331b89cec1881a2307ed1ef13ce075013",
+      "source_sha256": "5cfddb6274e150d0307da457f5fed7a331b89cec1881a2307ed1ef13ce075013",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "5cfddb6274e150d0307da457f5fed7a331b89cec1881a2307ed1ef13ce075013"
+    },
+    {
+      "path": "docs/RESEARCH_RESULTS.md",
+      "bytes": 5138,
+      "sha256": "8dd662110bdfe3f8ba97b7f53f8fd91efb8826b3ae88079c51cbbee2b0473bc4",
+      "source_sha256": "8dd662110bdfe3f8ba97b7f53f8fd91efb8826b3ae88079c51cbbee2b0473bc4",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "51717134a289631065cbab4c77388205be54ea3d101b4bbca6bdc4f04804398d"
+    },
+    {
+      "path": "docs/RGA_VALIDATION.md",
+      "bytes": 4856,
+      "sha256": "7f4ce6606de0391909e8e0fd1b6e94b3cbce0878f2a00a1aa18765de07eb2a93",
+      "source_sha256": "7f4ce6606de0391909e8e0fd1b6e94b3cbce0878f2a00a1aa18765de07eb2a93",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "7f4ce6606de0391909e8e0fd1b6e94b3cbce0878f2a00a1aa18765de07eb2a93"
+    },
+    {
+      "path": "docs/RUNPOD.md",
+      "bytes": 4072,
+      "sha256": "ec5a72225cc7f995c7670d8d5058b5a3f8d6d4dfc1b3e165f674527805ac6081",
+      "source_sha256": "ec5a72225cc7f995c7670d8d5058b5a3f8d6d4dfc1b3e165f674527805ac6081",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "8ef19db7d1b4db160ddf25649694e5683e2ffac7752f7d53386d599a7801a447"
+    },
+    {
+      "path": "docs/security/app_acceptance.json",
+      "bytes": 2293,
+      "sha256": "16e575b14cf470af8e256b5e87d431c1a195943ac681448ac60a7ca91b1f69dd",
+      "source_sha256": "16e575b14cf470af8e256b5e87d431c1a195943ac681448ac60a7ca91b1f69dd",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "a8da9988003f9d8e82d33f9d67fd61df71bdad00eed6228578bf574daa3df754"
+    },
+    {
+      "path": "docs/security/dependency_audit.json",
+      "bytes": 47326,
+      "sha256": "e190f972b578d1f2d1d35a288ed882efe06141d695a8c84aeefdc9d430386e5f",
+      "source_sha256": "e190f972b578d1f2d1d35a288ed882efe06141d695a8c84aeefdc9d430386e5f",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "73e3e0697580baefd20f7173dcfc7d91ae7832dccaa28693d17cd83334d5ea67"
+    },
+    {
+      "path": "docs/security/final_studio_acceptance.json",
+      "bytes": 585,
+      "sha256": "9aecdb8fe29df1e7f87ab300fc4be789cdc80defcea34fa5d4b7bde7f3bf86a0",
+      "source_sha256": "9aecdb8fe29df1e7f87ab300fc4be789cdc80defcea34fa5d4b7bde7f3bf86a0",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "c52df6b74df6a7233c60d580bd507e854c23986312a99c9577fab9a2413a3b9a"
+    },
+    {
+      "path": "docs/security/gaming_acceptance.json",
+      "bytes": 3637,
+      "sha256": "31132789ea1ecbaacf4e9b01686263d5e689bc4b690697974027972d1741fafa",
+      "source_sha256": "31132789ea1ecbaacf4e9b01686263d5e689bc4b690697974027972d1741fafa",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "0bd62578d828bddb7278d13f1da19d78e7f1f776049bcff3697d98980e236638"
+    },
+    {
+      "path": "docs/security/license_audit.json",
+      "bytes": 2214,
+      "sha256": "0e8de12df6d789ac5bbe41b8066d94a79bb58da6869cb8603720bcb533351e1a",
+      "source_sha256": "0e8de12df6d789ac5bbe41b8066d94a79bb58da6869cb8603720bcb533351e1a",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "756c30282613c041437dbe2ecf8e091d92303c73b075211ee0cd8bc75496b888"
+    },
+    {
+      "path": "docs/security/rc3_saved_acceptance.json",
+      "bytes": 1051,
+      "sha256": "81e41b4588400daefae730a5d5f54eeb660317df05f9f2f30ff7af3e565265a9",
+      "source_sha256": "81e41b4588400daefae730a5d5f54eeb660317df05f9f2f30ff7af3e565265a9",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "be6b69437a03f384ab8d05e42b58ad0d19ebe710fe1f5e5818d4bef10f478b76"
+    },
+    {
+      "path": "docs/security/rc3_studio_acceptance.json",
+      "bytes": 2762,
+      "sha256": "6522e7c92b3d1790c2452ea03a92c1f59f7225e3444f94e7bde1225fed99e707",
+      "source_sha256": "6522e7c92b3d1790c2452ea03a92c1f59f7225e3444f94e7bde1225fed99e707",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "4782294c05ca9f8f901f4cfc4a5403eb04ee57b66ddc3a4e7595c3d183445c22"
+    },
+    {
+      "path": "docs/security/rc3_theme_acceptance.json",
+      "bytes": 921,
+      "sha256": "b53fd611785642f8f6d7ec3c4ef0b7c7783ede8ee6fb6ca57d15066f8c110b71",
+      "source_sha256": "b53fd611785642f8f6d7ec3c4ef0b7c7783ede8ee6fb6ca57d15066f8c110b71",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "a6b310190df54037600d8bee7232d4eb7816da3cd1f81155f63a527c4e12ca4d"
+    },
+    {
+      "path": "docs/security/rga_acceptance.json",
+      "bytes": 1547,
+      "sha256": "4656f489d852450cee23e7f9d4f93dfab2f04627a758c4ba84fa843052de6aed",
+      "source_sha256": "4656f489d852450cee23e7f9d4f93dfab2f04627a758c4ba84fa843052de6aed",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "50e03915bfebe7143b7ca5a4c38d3a6607263d452273e869206afa49ef690633"
+    },
+    {
+      "path": "docs/SECURITY_AUDIT.md",
+      "bytes": 8176,
+      "sha256": "d47ea6fbb003b0f08b4f37e6b1c2922c8dc0ec08ad142c738e0ac078d924a377",
+      "source_sha256": "d47ea6fbb003b0f08b4f37e6b1c2922c8dc0ec08ad142c738e0ac078d924a377",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "5f5089995efa283aa3785f42fd6fb8d7bcbbf089a7f6123218fc43c17c4b17ef"
+    },
+    {
+      "path": "docs/sources/sdxl-LICENSE.md",
+      "bytes": 14109,
+      "sha256": "19b6998b569b53ac1fc2158a8a3202c8699a9a4605b47075715d9c96be7fb6d0",
+      "source_sha256": "19b6998b569b53ac1fc2158a8a3202c8699a9a4605b47075715d9c96be7fb6d0",
+      "transform": null,
+      "license_scope": "SEE-NOTICE",
+      "rc3_sha256": "19b6998b569b53ac1fc2158a8a3202c8699a9a4605b47075715d9c96be7fb6d0"
+    },
+    {
+      "path": "docs/sources/v03/Qwen-Image-LICENSE.txt",
+      "bytes": 11343,
+      "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+      "source_sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "SEE-NOTICE",
+      "rc3_sha256": "b907c8234b565e5ecefff8232dbb6f1d603fbf9a47a3176db734dcae27175d08"
+    },
+    {
+      "path": "docs/sources/v05/asset_lock.json",
+      "bytes": 16699,
+      "sha256": "ea71f5a2367e8d7f1376cfd516793f1b00cb65df3701d53f45ed9762f6fbb643",
+      "source_sha256": "ea71f5a2367e8d7f1376cfd516793f1b00cb65df3701d53f45ed9762f6fbb643",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "SEE-NOTICE",
+      "rc3_sha256": "f69fe139c9e5f4ecca3398665a0d68f7a8d74adcf186a2d972bbb54d3c271cbd"
+    },
+    {
+      "path": "docs/TRAINING.md",
+      "bytes": 4972,
+      "sha256": "a3a76ff987054cb9b9cf62db9a0c265a835bc9df072876a19a60ca7277bd65a7",
+      "source_sha256": "a3a76ff987054cb9b9cf62db9a0c265a835bc9df072876a19a60ca7277bd65a7",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "a3a76ff987054cb9b9cf62db9a0c265a835bc9df072876a19a60ca7277bd65a7"
+    },
+    {
+      "path": "docs/V07_QUALITY_PLAN.md",
+      "bytes": 3920,
+      "sha256": "be8a2518a2327fd7727d5da2938d74b58dca5edcdcdbbf417a8c74e7210fbf94",
+      "source_sha256": "be8a2518a2327fd7727d5da2938d74b58dca5edcdcdbbf417a8c74e7210fbf94",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "6c916f161da70098f538a2d7509028387a1949545daf03788fe977e6cc98bb4c"
+    },
+    {
+      "path": "environments/app/pyproject.toml",
+      "bytes": 478,
+      "sha256": "80944d946f868855808d5d9142e0866561b0aa0b8a487a5cbfa0fe36533552cd",
+      "source_sha256": "80944d946f868855808d5d9142e0866561b0aa0b8a487a5cbfa0fe36533552cd",
+      "transform": "v1.1.0 release metadata/template promotion; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "219f201a729ad6626f2393e05984299c3fd65357c79997002db405e4dc6cb208"
+    },
+    {
+      "path": "environments/app/uv.lock",
+      "bytes": 121373,
+      "sha256": "db840858f8df85d4200c86abb20a0e0495af6246e5185e95fb127345c1a3b723",
+      "source_sha256": "db840858f8df85d4200c86abb20a0e0495af6246e5185e95fb127345c1a3b723",
+      "transform": "v1.1.0 release metadata/template promotion; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "c7da6b5afb16e0891c4997f214a80348205c6a6317f6ead1b85d9af3759e573d"
+    },
+    {
+      "path": "environments/qwen/pyproject.toml",
+      "bytes": 655,
+      "sha256": "cb144d263ad32b82d5eaf99964f56cf01354359fcedfa1b12531020215af7128",
+      "source_sha256": "cb144d263ad32b82d5eaf99964f56cf01354359fcedfa1b12531020215af7128",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "cb144d263ad32b82d5eaf99964f56cf01354359fcedfa1b12531020215af7128"
+    },
+    {
+      "path": "environments/qwen/uv.lock",
+      "bytes": 98903,
+      "sha256": "01a7dac85a96f7d60949db7bfc27eefe52da28d442afea1f68cb0bc4d2d852ed",
+      "source_sha256": "01a7dac85a96f7d60949db7bfc27eefe52da28d442afea1f68cb0bc4d2d852ed",
+      "transform": "v1.1.0 release metadata/template promotion; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "4adc4e36285769d5cc41e90f60af9545b5e309eaeb7e657bde54ba4c5262f57f"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1082,
+      "sha256": "c1deaccb239fe8a7498d1f8dc11cdb8c3635dbaab41235de428cdebf5869a198",
+      "source_sha256": "c1deaccb239fe8a7498d1f8dc11cdb8c3635dbaab41235de428cdebf5869a198",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "c1deaccb239fe8a7498d1f8dc11cdb8c3635dbaab41235de428cdebf5869a198"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 3324,
+      "sha256": "270502f76c9595a918169bd64e81183873ee3eefdbf6e541fd323106f0d5711b",
+      "source_sha256": "270502f76c9595a918169bd64e81183873ee3eefdbf6e541fd323106f0d5711b",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "1f3afb3954d098d8105c078b3b6fec34b80a764d9901732aa357b139828c27db"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 1645,
+      "sha256": "a9bd0a3816edc231c7e390ebd3126c00c040a444650f27c6eb818e0c53d7d5cc",
+      "source_sha256": "a9bd0a3816edc231c7e390ebd3126c00c040a444650f27c6eb818e0c53d7d5cc",
+      "transform": "v1.1.0 release metadata/template promotion; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "a8e1f3abc78777309679190a70c53f1f900c910d56b849c82eee8d2c0d0acebd"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6692,
+      "sha256": "6c384f878bb3e0b19fecdb7b8f696bde1c821ba2dabe32cbf76ee0f12add707d",
+      "source_sha256": "6c384f878bb3e0b19fecdb7b8f696bde1c821ba2dabe32cbf76ee0f12add707d",
+      "transform": "v1.1.0 release metadata/template promotion; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "5d0fdc3adc5757e61a48eb33e22fc00d3e6aa3bab26924f5863a6cb48f04fc70"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "bytes": 1449,
+      "sha256": "eef659ed65f91c5b600c9105802b65fb68caef14a9561a1a7f6c74dbaa3b8064",
+      "source_sha256": "eef659ed65f91c5b600c9105802b65fb68caef14a9561a1a7f6c74dbaa3b8064",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "126f5c6e2da92e5e5a3bf8b44055133851982a87bdee22316913f77e3dcabb6e"
+    },
+    {
+      "path": "ROOMCRAFT_FINAL_POLISH_REPORT.md",
+      "bytes": 5073,
+      "sha256": "f170ac3e26f1975e35ad53e2ce4bda528ed0d3eb0df556bdc8021e54e2d79c17",
+      "source_sha256": "f170ac3e26f1975e35ad53e2ce4bda528ed0d3eb0df556bdc8021e54e2d79c17",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "99023823678853732df6e36d79fa4d87c4148a35ec1ca62954752c009fc66fc9"
+    },
+    {
+      "path": "ROOMCRAFT_V11_FINAL_RELEASE_REPORT.md",
+      "bytes": 5320,
+      "sha256": "22bd31036e709a80a1f48edccc2fd517edea77994acf0f2b49c80a46c1ce754e",
+      "source_sha256": "22bd31036e709a80a1f48edccc2fd517edea77994acf0f2b49c80a46c1ce754e",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "22bd31036e709a80a1f48edccc2fd517edea77994acf0f2b49c80a46c1ce754e"
+    },
+    {
+      "path": "scripts/analyze_v10_causality.py",
+      "bytes": 9731,
+      "sha256": "1cd85f8ede47c4c8be8c14ebfc4c933c8e209b856e3a341400de358c221791e9",
+      "source_sha256": "1cd85f8ede47c4c8be8c14ebfc4c933c8e209b856e3a341400de358c221791e9",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "1cd85f8ede47c4c8be8c14ebfc4c933c8e209b856e3a341400de358c221791e9"
+    },
+    {
+      "path": "scripts/app_runpod.py",
+      "bytes": 15687,
+      "sha256": "98e9f8cf8bceedb040bbc585d12bf4de882e91af6b3a96561c28aab840fc7c87",
+      "source_sha256": "98e9f8cf8bceedb040bbc585d12bf4de882e91af6b3a96561c28aab840fc7c87",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "98e9f8cf8bceedb040bbc585d12bf4de882e91af6b3a96561c28aab840fc7c87"
+    },
+    {
+      "path": "scripts/app_worker.py",
+      "bytes": 2541,
+      "sha256": "752cffd5d180900a15cc850800c87a4b1197d1ac221ec28c9c761b4b3e4b8eab",
+      "source_sha256": "752cffd5d180900a15cc850800c87a4b1197d1ac221ec28c9c761b4b3e4b8eab",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "752cffd5d180900a15cc850800c87a4b1197d1ac221ec28c9c761b4b3e4b8eab"
+    },
+    {
+      "path": "scripts/archive_licenses.py",
+      "bytes": 973,
+      "sha256": "fe9a12bcdeabe35003958f632282de6de2f99b570ee3fa46cc2786bf8eaacece",
+      "source_sha256": "fe9a12bcdeabe35003958f632282de6de2f99b570ee3fa46cc2786bf8eaacece",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "fe9a12bcdeabe35003958f632282de6de2f99b570ee3fa46cc2786bf8eaacece"
+    },
+    {
+      "path": "scripts/audit_v07.py",
+      "bytes": 11652,
+      "sha256": "838ce0388a5fd9a7d2bc61f5286b3c8a8cc8e500534107314e1173e33f879a8b",
+      "source_sha256": "838ce0388a5fd9a7d2bc61f5286b3c8a8cc8e500534107314e1173e33f879a8b",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "838ce0388a5fd9a7d2bc61f5286b3c8a8cc8e500534107314e1173e33f879a8b"
+    },
+    {
+      "path": "scripts/benchmark.py",
+      "bytes": 2675,
+      "sha256": "2642e8f76917f265a70eaa08a816be76e7853701003576405cbe1cb73ac44892",
+      "source_sha256": "2642e8f76917f265a70eaa08a816be76e7853701003576405cbe1cb73ac44892",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "2642e8f76917f265a70eaa08a816be76e7853701003576405cbe1cb73ac44892"
+    },
+    {
+      "path": "scripts/build_release.py",
+      "bytes": 7773,
+      "sha256": "9502ce430d56b8aca6fc5429e94308b0d34735bcdc8080e53d5b9ea0906917a9",
+      "source_sha256": "9502ce430d56b8aca6fc5429e94308b0d34735bcdc8080e53d5b9ea0906917a9",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "9502ce430d56b8aca6fc5429e94308b0d34735bcdc8080e53d5b9ea0906917a9"
+    },
+    {
+      "path": "scripts/check_blackwell_stack.py",
+      "bytes": 2328,
+      "sha256": "e8bc13f3ce8356606595c8479243e89d77829e1250d9df6db6ba15315b9621ff",
+      "source_sha256": "e8bc13f3ce8356606595c8479243e89d77829e1250d9df6db6ba15315b9621ff",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "e8bc13f3ce8356606595c8479243e89d77829e1250d9df6db6ba15315b9621ff"
+    },
+    {
+      "path": "scripts/finalize_v06_dataset.py",
+      "bytes": 6461,
+      "sha256": "c5e3464a4dbf61d1eeb2bbfb08ab6a4fa92f9896dd65995f6971fa311bf7ab4f",
+      "source_sha256": "c5e3464a4dbf61d1eeb2bbfb08ab6a4fa92f9896dd65995f6971fa311bf7ab4f",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "c5e3464a4dbf61d1eeb2bbfb08ab6a4fa92f9896dd65995f6971fa311bf7ab4f"
+    },
+    {
+      "path": "scripts/generate_gaming_dataset.py",
+      "bytes": 19664,
+      "sha256": "c1224d81e5115d64a1a92df4a21dc13b0845aaab4806291e5ae67dda05d9949e",
+      "source_sha256": "c1224d81e5115d64a1a92df4a21dc13b0845aaab4806291e5ae67dda05d9949e",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "c1224d81e5115d64a1a92df4a21dc13b0845aaab4806291e5ae67dda05d9949e"
+    },
+    {
+      "path": "scripts/generate_room_dataset.py",
+      "bytes": 50912,
+      "sha256": "8ab623503127dfd3a09a2a632e46e5d84fa9cbe528362cf38e8056e08553705d",
+      "source_sha256": "8ab623503127dfd3a09a2a632e46e5d84fa9cbe528362cf38e8056e08553705d",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "8ab623503127dfd3a09a2a632e46e5d84fa9cbe528362cf38e8056e08553705d"
+    },
+    {
+      "path": "scripts/gpu_smoke.py",
+      "bytes": 1157,
+      "sha256": "24e3e62bf37b4f3ce3a893f0229e0a1e1ab6fe13fb0e30c025dc3246e6958944",
+      "source_sha256": "24e3e62bf37b4f3ce3a893f0229e0a1e1ab6fe13fb0e30c025dc3246e6958944",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "24e3e62bf37b4f3ce3a893f0229e0a1e1ab6fe13fb0e30c025dc3246e6958944"
+    },
+    {
+      "path": "scripts/launch_app.py",
+      "bytes": 1527,
+      "sha256": "fb2b17e1e3bce2b6559bcf1ee5033e1c45e78c91a960e6eac38d0d31e0d165d7",
+      "source_sha256": "fb2b17e1e3bce2b6559bcf1ee5033e1c45e78c91a960e6eac38d0d31e0d165d7",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "fb2b17e1e3bce2b6559bcf1ee5033e1c45e78c91a960e6eac38d0d31e0d165d7"
+    },
+    {
+      "path": "scripts/make_fixture.py",
+      "bytes": 2180,
+      "sha256": "31b6c2592fe16c7d6f9896bfb38a2c13f6f46f392e25294641e12ebb5af7b57f",
+      "source_sha256": "31b6c2592fe16c7d6f9896bfb38a2c13f6f46f392e25294641e12ebb5af7b57f",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "31b6c2592fe16c7d6f9896bfb38a2c13f6f46f392e25294641e12ebb5af7b57f"
+    },
+    {
+      "path": "scripts/prepare_gaming_provenance.py",
+      "bytes": 5876,
+      "sha256": "de82e8a61d3d9ed9f07db8ff5379ec39ba44d49e518a2e8ad4cb96834f583998",
+      "source_sha256": "de82e8a61d3d9ed9f07db8ff5379ec39ba44d49e518a2e8ad4cb96834f583998",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "de82e8a61d3d9ed9f07db8ff5379ec39ba44d49e518a2e8ad4cb96834f583998"
+    },
+    {
+      "path": "scripts/prepare_qwen_pairs.py",
+      "bytes": 1237,
+      "sha256": "0cf9dbebe2c9db4d83088e03a5018bdcb27da19b1a06bcfa0207d8969bcffbda",
+      "source_sha256": "0cf9dbebe2c9db4d83088e03a5018bdcb27da19b1a06bcfa0207d8969bcffbda",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "0cf9dbebe2c9db4d83088e03a5018bdcb27da19b1a06bcfa0207d8969bcffbda"
+    },
+    {
+      "path": "scripts/prepare_render_provenance.py",
+      "bytes": 3791,
+      "sha256": "e02661799b56e14d5aff14fd3107e8290bcca5cec1468e56b5a6c277efe43684",
+      "source_sha256": "e02661799b56e14d5aff14fd3107e8290bcca5cec1468e56b5a6c277efe43684",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "e02661799b56e14d5aff14fd3107e8290bcca5cec1468e56b5a6c277efe43684"
+    },
+    {
+      "path": "scripts/prepare_v06_dataset.py",
+      "bytes": 5285,
+      "sha256": "977514cb5cd6b8cecfedbc99dfcabe81ae0bdeac43df0f8ed5a56938dc6e8e73",
+      "source_sha256": "977514cb5cd6b8cecfedbc99dfcabe81ae0bdeac43df0f8ed5a56938dc6e8e73",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "977514cb5cd6b8cecfedbc99dfcabe81ae0bdeac43df0f8ed5a56938dc6e8e73"
+    },
+    {
+      "path": "scripts/project_room_landmarks.py",
+      "bytes": 3778,
+      "sha256": "5c0189feffe1c7c2334fc9f2b4c55172c988849780efe790855795f5bdc48465",
+      "source_sha256": "5c0189feffe1c7c2334fc9f2b4c55172c988849780efe790855795f5bdc48465",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "5c0189feffe1c7c2334fc9f2b4c55172c988849780efe790855795f5bdc48465"
+    },
+    {
+      "path": "scripts/render_qwen_pair.py",
+      "bytes": 3578,
+      "sha256": "43cbc8783b67cce5fdfeed095744dec8474f9ef977e8dd9caa05310985b83e0c",
+      "source_sha256": "43cbc8783b67cce5fdfeed095744dec8474f9ef977e8dd9caa05310985b83e0c",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "43cbc8783b67cce5fdfeed095744dec8474f9ef977e8dd9caa05310985b83e0c"
+    },
+    {
+      "path": "scripts/repair_v06_plants.py",
+      "bytes": 4779,
+      "sha256": "9288ca1c7c25666ca1dbc3bd60eca2444c1f98790340011d5b43aa178d8b2ec7",
+      "source_sha256": "9288ca1c7c25666ca1dbc3bd60eca2444c1f98790340011d5b43aa178d8b2ec7",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "9288ca1c7c25666ca1dbc3bd60eca2444c1f98790340011d5b43aa178d8b2ec7"
+    },
+    {
+      "path": "scripts/research_sources.py",
+      "bytes": 2469,
+      "sha256": "fb7e999dcb8a091c55f9f90676268de6fc2499523a2ecf31cfb88031288e9430",
+      "source_sha256": "fb7e999dcb8a091c55f9f90676268de6fc2499523a2ecf31cfb88031288e9430",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "fb7e999dcb8a091c55f9f90676268de6fc2499523a2ecf31cfb88031288e9430"
+    },
+    {
+      "path": "scripts/review_room_dataset.py",
+      "bytes": 963,
+      "sha256": "d6e2934f9f1e9b4e2ac41d2017a438b63f02246feb1b0e716c455147f35913d5",
+      "source_sha256": "d6e2934f9f1e9b4e2ac41d2017a438b63f02246feb1b0e716c455147f35913d5",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "d6e2934f9f1e9b4e2ac41d2017a438b63f02246feb1b0e716c455147f35913d5"
+    },
+    {
+      "path": "scripts/rga_v08.py",
+      "bytes": 6176,
+      "sha256": "0750d0ddefc611a067f0d3feaa6de1f5ed818cf29a5a7ac57f823215dd32697e",
+      "source_sha256": "0750d0ddefc611a067f0d3feaa6de1f5ed818cf29a5a7ac57f823215dd32697e",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "0750d0ddefc611a067f0d3feaa6de1f5ed818cf29a5a7ac57f823215dd32697e"
+    },
+    {
+      "path": "scripts/roomcraft_runpod.py",
+      "bytes": 7720,
+      "sha256": "824d45be22cbc4ab902c13357337ec88e418f9b984483f4a547ccdf4d88ec135",
+      "source_sha256": "824d45be22cbc4ab902c13357337ec88e418f9b984483f4a547ccdf4d88ec135",
+      "transform": "AST-library-only; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "8853d6c7a154688924a6a4c94f60e098e7043ab67cb7ff4c8d59aacf7337b06e"
+    },
+    {
+      "path": "scripts/runpod_credential_source.py",
+      "bytes": 4824,
+      "sha256": "8c0f2b46d3532347957d4871e3414932679900881aca0986354a31d1ec4ff297",
+      "source_sha256": "8c0f2b46d3532347957d4871e3414932679900881aca0986354a31d1ec4ff297",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "59f232db7eb45bbeb9e91c0b6e32aadfdbda930a40133992781391fb705fe02b"
+    },
+    {
+      "path": "scripts/runpod_setup.sh",
+      "bytes": 923,
+      "sha256": "83051fe62fbcae6cf055aa242326f95d35a97bb23af037d5e3843e998bd02f9f",
+      "source_sha256": "83051fe62fbcae6cf055aa242326f95d35a97bb23af037d5e3843e998bd02f9f",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "83051fe62fbcae6cf055aa242326f95d35a97bb23af037d5e3843e998bd02f9f"
+    },
+    {
+      "path": "scripts/runpod_v03_setup.sh",
+      "bytes": 1149,
+      "sha256": "31c72803fe5de31bafe1ba772c3e798200ef96b8556e9a9fc96885a794c1e8a5",
+      "source_sha256": "31c72803fe5de31bafe1ba772c3e798200ef96b8556e9a9fc96885a794c1e8a5",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "31c72803fe5de31bafe1ba772c3e798200ef96b8556e9a9fc96885a794c1e8a5"
+    },
+    {
+      "path": "scripts/runpod_v04_inspect.sh",
+      "bytes": 812,
+      "sha256": "4753b335d629fde0a567447d9b4c9fd2597a674233da3fa82e9c89ad8a3112de",
+      "source_sha256": "4753b335d629fde0a567447d9b4c9fd2597a674233da3fa82e9c89ad8a3112de",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "4753b335d629fde0a567447d9b4c9fd2597a674233da3fa82e9c89ad8a3112de"
+    },
+    {
+      "path": "scripts/runpod_v04_setup.sh",
+      "bytes": 1705,
+      "sha256": "5e36bbd138d7ff461150edf91459c4a3949e191ec51f53e09601416a3419e959",
+      "source_sha256": "5e36bbd138d7ff461150edf91459c4a3949e191ec51f53e09601416a3419e959",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "5e36bbd138d7ff461150edf91459c4a3949e191ec51f53e09601416a3419e959"
+    },
+    {
+      "path": "scripts/runpod_v06_experiment.sh",
+      "bytes": 3791,
+      "sha256": "37be3a800665f1feed5fcf0adc8c88a3e1a307f7732e868e5826f9d12edcee83",
+      "source_sha256": "37be3a800665f1feed5fcf0adc8c88a3e1a307f7732e868e5826f9d12edcee83",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "37be3a800665f1feed5fcf0adc8c88a3e1a307f7732e868e5826f9d12edcee83"
+    },
+    {
+      "path": "scripts/v02_diagnose.py",
+      "bytes": 3638,
+      "sha256": "ea8ee4a9f38a1c9eb41f30c8d85e26d7b033efada70f8efc42bb836a818d7508",
+      "source_sha256": "ea8ee4a9f38a1c9eb41f30c8d85e26d7b033efada70f8efc42bb836a818d7508",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "ea8ee4a9f38a1c9eb41f30c8d85e26d7b033efada70f8efc42bb836a818d7508"
+    },
+    {
+      "path": "scripts/v02_download_photos.py",
+      "bytes": 3620,
+      "sha256": "21c3973521d432d1c65027debd9ba80f16cb210707d41d555cf6e437036c0efd",
+      "source_sha256": "21c3973521d432d1c65027debd9ba80f16cb210707d41d555cf6e437036c0efd",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "21c3973521d432d1c65027debd9ba80f16cb210707d41d555cf6e437036c0efd"
+    },
+    {
+      "path": "scripts/v02_gallery.py",
+      "bytes": 7121,
+      "sha256": "0f89195f464882fd32ec9f4a5e23024a47fff0bd8343ba7420a019a9b44581ca",
+      "source_sha256": "0f89195f464882fd32ec9f4a5e23024a47fff0bd8343ba7420a019a9b44581ca",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "0f89195f464882fd32ec9f4a5e23024a47fff0bd8343ba7420a019a9b44581ca"
+    },
+    {
+      "path": "scripts/v02_make_masks.py",
+      "bytes": 2298,
+      "sha256": "2c75967228e281dec8aeb4c444c9659238897193e76a39d8f74b86a396531585",
+      "source_sha256": "2c75967228e281dec8aeb4c444c9659238897193e76a39d8f74b86a396531585",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "2c75967228e281dec8aeb4c444c9659238897193e76a39d8f74b86a396531585"
+    },
+    {
+      "path": "scripts/v02_run.py",
+      "bytes": 6056,
+      "sha256": "2a8dbbfe2add19a71fca66734908878ddaf64f5d612c63da9d58cd5066354362",
+      "source_sha256": "2a8dbbfe2add19a71fca66734908878ddaf64f5d612c63da9d58cd5066354362",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "2a8dbbfe2add19a71fca66734908878ddaf64f5d612c63da9d58cd5066354362"
+    },
+    {
+      "path": "scripts/v03_compare.py",
+      "bytes": 5419,
+      "sha256": "d1adf2dc4c504bf13d503ce30e8889333058cba4bd705188d9889782cdeb0b38",
+      "source_sha256": "d1adf2dc4c504bf13d503ce30e8889333058cba4bd705188d9889782cdeb0b38",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "d1adf2dc4c504bf13d503ce30e8889333058cba4bd705188d9889782cdeb0b38"
+    },
+    {
+      "path": "scripts/v03_model_audit.py",
+      "bytes": 1863,
+      "sha256": "713b9a23475c55a147aba522c9e98f5ed6e4ad21ec33ab39ca1604283b6c58d1",
+      "source_sha256": "713b9a23475c55a147aba522c9e98f5ed6e4ad21ec33ab39ca1604283b6c58d1",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "713b9a23475c55a147aba522c9e98f5ed6e4ad21ec33ab39ca1604283b6c58d1"
+    },
+    {
+      "path": "scripts/v03_processor_check.py",
+      "bytes": 1764,
+      "sha256": "d6395815960f71c6bd7ff77e5f2056a837c9d15c4096942b0e5bc44de1886777",
+      "source_sha256": "d6395815960f71c6bd7ff77e5f2056a837c9d15c4096942b0e5bc44de1886777",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "d6395815960f71c6bd7ff77e5f2056a837c9d15c4096942b0e5bc44de1886777"
+    },
+    {
+      "path": "scripts/v04_compare.py",
+      "bytes": 2852,
+      "sha256": "34cff5d1cda55cbe5c2df548816373115d54a7eff14c98fcafa8152bea6216ce",
+      "source_sha256": "34cff5d1cda55cbe5c2df548816373115d54a7eff14c98fcafa8152bea6216ce",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "34cff5d1cda55cbe5c2df548816373115d54a7eff14c98fcafa8152bea6216ce"
+    },
+    {
+      "path": "scripts/v04_model_audit.py",
+      "bytes": 1471,
+      "sha256": "79d85785c53be63cd859ea6661cfbfc9c9eacb95752157ef73f5198ba01e52f8",
+      "source_sha256": "79d85785c53be63cd859ea6661cfbfc9c9eacb95752157ef73f5198ba01e52f8",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "79d85785c53be63cd859ea6661cfbfc9c9eacb95752157ef73f5198ba01e52f8"
+    },
+    {
+      "path": "scripts/v04_research_sources.py",
+      "bytes": 2446,
+      "sha256": "363fd74227510186ad21dd07b5dfccacd1b1cb8e3646144ab5eba318bdcf3738",
+      "source_sha256": "363fd74227510186ad21dd07b5dfccacd1b1cb8e3646144ab5eba318bdcf3738",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "363fd74227510186ad21dd07b5dfccacd1b1cb8e3646144ab5eba318bdcf3738"
+    },
+    {
+      "path": "scripts/v04_tiny_gpu_check.py",
+      "bytes": 2485,
+      "sha256": "75ef88bc57dd7a092baba0f9bdd8426f9e29e761aa6ab59e569bf9c2053a412d",
+      "source_sha256": "75ef88bc57dd7a092baba0f9bdd8426f9e29e761aa6ab59e569bf9c2053a412d",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "75ef88bc57dd7a092baba0f9bdd8426f9e29e761aa6ab59e569bf9c2053a412d"
+    },
+    {
+      "path": "scripts/v05_download_assets.py",
+      "bytes": 5157,
+      "sha256": "47836e0e1d21dd8a19e4c68a778ceeb21890e01463f621e33c6e4b85a4a6ac82",
+      "source_sha256": "47836e0e1d21dd8a19e4c68a778ceeb21890e01463f621e33c6e4b85a4a6ac82",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "47836e0e1d21dd8a19e4c68a778ceeb21890e01463f621e33c6e4b85a4a6ac82"
+    },
+    {
+      "path": "scripts/v06_gpu_probe.py",
+      "bytes": 1514,
+      "sha256": "b9bc5437480b1d291a125f90acaa44510d51c74a46c8afa58f0590b1de72a946",
+      "source_sha256": "b9bc5437480b1d291a125f90acaa44510d51c74a46c8afa58f0590b1de72a946",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "b9bc5437480b1d291a125f90acaa44510d51c74a46c8afa58f0590b1de72a946"
+    },
+    {
+      "path": "scripts/v06_inspect_plant.py",
+      "bytes": 1236,
+      "sha256": "f6b437f7744ab6e8043f19846282850ca67a94416b3368236becfb5d0add8686",
+      "source_sha256": "f6b437f7744ab6e8043f19846282850ca67a94416b3368236becfb5d0add8686",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "f6b437f7744ab6e8043f19846282850ca67a94416b3368236becfb5d0add8686"
+    },
+    {
+      "path": "scripts/v06_pilot_budget.py",
+      "bytes": 2037,
+      "sha256": "c00d2f8ca539e00d2ba3326a18605a5689c6c593a18228c9b6e9434e2f4c126e",
+      "source_sha256": "c00d2f8ca539e00d2ba3326a18605a5689c6c593a18228c9b6e9434e2f4c126e",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "c00d2f8ca539e00d2ba3326a18605a5689c6c593a18228c9b6e9434e2f4c126e"
+    },
+    {
+      "path": "scripts/v06_readiness.py",
+      "bytes": 2660,
+      "sha256": "682ccf95763f239c4973f9eda7441d54596179c1ace57bd04858cff379f43950",
+      "source_sha256": "682ccf95763f239c4973f9eda7441d54596179c1ace57bd04858cff379f43950",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "682ccf95763f239c4973f9eda7441d54596179c1ace57bd04858cff379f43950"
+    },
+    {
+      "path": "scripts/v07_evaluate.py",
+      "bytes": 11885,
+      "sha256": "5ddc3ca8214c6aa9b1c45ff7d083bf2099d72abd586db7baca6dbe1c61a7dcd4",
+      "source_sha256": "5ddc3ca8214c6aa9b1c45ff7d083bf2099d72abd586db7baca6dbe1c61a7dcd4",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "5ddc3ca8214c6aa9b1c45ff7d083bf2099d72abd586db7baca6dbe1c61a7dcd4"
+    },
+    {
+      "path": "scripts/v07_summarize.py",
+      "bytes": 5348,
+      "sha256": "8f39a3f0f821862bf216e144a28051ff5aad2bc8db496a37cdc28e3dc4d29110",
+      "source_sha256": "8f39a3f0f821862bf216e144a28051ff5aad2bc8db496a37cdc28e3dc4d29110",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "8f39a3f0f821862bf216e144a28051ff5aad2bc8db496a37cdc28e3dc4d29110"
+    },
+    {
+      "path": "scripts/v09_experiment.py",
+      "bytes": 11019,
+      "sha256": "2c51095f60495afff86d64418fa651ff30fb6bfc0cfcebc961a12bce0cc75390",
+      "source_sha256": "2c51095f60495afff86d64418fa651ff30fb6bfc0cfcebc961a12bce0cc75390",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "2c51095f60495afff86d64418fa651ff30fb6bfc0cfcebc961a12bce0cc75390"
+    },
+    {
+      "path": "scripts/v09_plot.py",
+      "bytes": 2394,
+      "sha256": "5664890af687e896be4b000f1ca98b4385973568fcdc0b0e3a8004f22c66dd22",
+      "source_sha256": "5664890af687e896be4b000f1ca98b4385973568fcdc0b0e3a8004f22c66dd22",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "5664890af687e896be4b000f1ca98b4385973568fcdc0b0e3a8004f22c66dd22"
+    },
+    {
+      "path": "scripts/v09_summarize.py",
+      "bytes": 6492,
+      "sha256": "a782e3cbcd2fa4134c4495367c065dd221f06fb1e92b0f1ae41d8ab6d7b359d7",
+      "source_sha256": "a782e3cbcd2fa4134c4495367c065dd221f06fb1e92b0f1ae41d8ab6d7b359d7",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "a782e3cbcd2fa4134c4495367c065dd221f06fb1e92b0f1ae41d8ab6d7b359d7"
+    },
+    {
+      "path": "scripts/v10_activation_probe.py",
+      "bytes": 3387,
+      "sha256": "f621b3a7c9d4ae59b2e08420949de512f616f5715752f0706f1580a9798752d4",
+      "source_sha256": "f621b3a7c9d4ae59b2e08420949de512f616f5715752f0706f1580a9798752d4",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "f621b3a7c9d4ae59b2e08420949de512f616f5715752f0706f1580a9798752d4"
+    },
+    {
+      "path": "scripts/v10_causality.py",
+      "bytes": 17188,
+      "sha256": "87f202f5df2440e16b34e5cada01fe25663501a3e1b1b3250f0f4ccc0cfdfa61",
+      "source_sha256": "87f202f5df2440e16b34e5cada01fe25663501a3e1b1b3250f0f4ccc0cfdfa61",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "87f202f5df2440e16b34e5cada01fe25663501a3e1b1b3250f0f4ccc0cfdfa61"
+    },
+    {
+      "path": "scripts/verify_app.py",
+      "bytes": 7193,
+      "sha256": "0c1a1b62a5b6ee2de00289a9b0540771b1542963c2ec7cac90e9e54651bd8df7",
+      "source_sha256": "0c1a1b62a5b6ee2de00289a9b0540771b1542963c2ec7cac90e9e54651bd8df7",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "0c1a1b62a5b6ee2de00289a9b0540771b1542963c2ec7cac90e9e54651bd8df7"
+    },
+    {
+      "path": "scripts/verify_gaming_app.py",
+      "bytes": 12529,
+      "sha256": "ddc9ee68d5cbdc9f8fe9edb0b35352dac444530862b2fc5e91f3e70146494006",
+      "source_sha256": "ddc9ee68d5cbdc9f8fe9edb0b35352dac444530862b2fc5e91f3e70146494006",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "d4d8f2aa8054a7d6920444bd49f49f526cd2d6a67d233ac8f61e517d80bf2671"
+    },
+    {
+      "path": "scripts/verify_posix_storage.py",
+      "bytes": 2726,
+      "sha256": "da53852fa374de735b670f0c09ab9834aa1aa9c5d1054a15f957c6fb08a22974",
+      "source_sha256": "da53852fa374de735b670f0c09ab9834aa1aa9c5d1054a15f957c6fb08a22974",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "da53852fa374de735b670f0c09ab9834aa1aa9c5d1054a15f957c6fb08a22974"
+    },
+    {
+      "path": "scripts/verify_rga_pair.py",
+      "bytes": 4980,
+      "sha256": "b1645d600dcb25344fc4ae14920704344eeb01f740f4a9414d044187c7036268",
+      "source_sha256": "b1645d600dcb25344fc4ae14920704344eeb01f740f4a9414d044187c7036268",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "4be8255389fa35f5951ee6f0a532cc64f76e90d4feaa30f32ea3ba42a6b2134e"
+    },
+    {
+      "path": "scripts/verify_studio.py",
+      "bytes": 4989,
+      "sha256": "eee858ffc76d6f7222ea9f493c1fcb2d727e49dd9451857bfdbe4ebdab0a348b",
+      "source_sha256": "eee858ffc76d6f7222ea9f493c1fcb2d727e49dd9451857bfdbe4ebdab0a348b",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "eee858ffc76d6f7222ea9f493c1fcb2d727e49dd9451857bfdbe4ebdab0a348b"
+    },
+    {
+      "path": "scripts/verify_v06_training.py",
+      "bytes": 4175,
+      "sha256": "8743bee8afbb67e617f7f94462d02d3fc983c5843402ac387a763707d88f19f1",
+      "source_sha256": "8743bee8afbb67e617f7f94462d02d3fc983c5843402ac387a763707d88f19f1",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "8743bee8afbb67e617f7f94462d02d3fc983c5843402ac387a763707d88f19f1"
+    },
+    {
+      "path": "SECURITY.md",
+      "bytes": 2519,
+      "sha256": "9f30a6510e8bee73de81bee55104422bad4441741fba6e91029a7adc7682ea14",
+      "source_sha256": "9f30a6510e8bee73de81bee55104422bad4441741fba6e91029a7adc7682ea14",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "9f30a6510e8bee73de81bee55104422bad4441741fba6e91029a7adc7682ea14"
+    },
+    {
+      "path": "src/roomcraft/__init__.py",
+      "bytes": 101,
+      "sha256": "7c70c272482c7427713987d4c6f4de5c4ddbb00983098c1f760f2642d7b2d3e3",
+      "source_sha256": "7c70c272482c7427713987d4c6f4de5c4ddbb00983098c1f760f2642d7b2d3e3",
+      "transform": "v1.1.0 release metadata/template promotion; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "22f1cbc91e1a938bc7f7db84e5d71ba3b16e31240915dfc691a9e02c30e23447"
+    },
+    {
+      "path": "src/roomcraft/__main__.py",
+      "bytes": 70,
+      "sha256": "b4abe51d59482c13932d253c83fae791bb96e149b42626cd12cfe16e0e179bbd",
+      "source_sha256": "b4abe51d59482c13932d253c83fae791bb96e149b42626cd12cfe16e0e179bbd",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "b4abe51d59482c13932d253c83fae791bb96e149b42626cd12cfe16e0e179bbd"
+    },
+    {
+      "path": "src/roomcraft/app.css",
+      "bytes": 3647,
+      "sha256": "90028e13040144941659aab31e87ee1e5caa977bcb3b1342f8dd90b9b69715a0",
+      "source_sha256": "90028e13040144941659aab31e87ee1e5caa977bcb3b1342f8dd90b9b69715a0",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "90028e13040144941659aab31e87ee1e5caa977bcb3b1342f8dd90b9b69715a0"
+    },
+    {
+      "path": "src/roomcraft/app.py",
+      "bytes": 32200,
+      "sha256": "d832313ae65c9f92ccafd0cbe681fadfd8e5bba0ff0836d7616a32c8b32e4c93",
+      "source_sha256": "d832313ae65c9f92ccafd0cbe681fadfd8e5bba0ff0836d7616a32c8b32e4c93",
+      "transform": "v1.1.0 release metadata/template promotion; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "2f4fdfdce2449f67d229ee57a7b5d572a444caae528d6c5f07b29f067b8b529b"
+    },
+    {
+      "path": "src/roomcraft/app_service.py",
+      "bytes": 19666,
+      "sha256": "6afd925aa2a5d23cbac87497e16435635e8fc482e27be02e3ead00952579e2c3",
+      "source_sha256": "6afd925aa2a5d23cbac87497e16435635e8fc482e27be02e3ead00952579e2c3",
+      "transform": "v1.1.0 release metadata/template promotion; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "931b323f923ce5088a2c56de084f1c2c0e2723a77df560d82ffe8311db02349d"
+    },
+    {
+      "path": "src/roomcraft/causality.py",
+      "bytes": 5623,
+      "sha256": "3d4bc528f12807e2a520f4b95df332381f7bc8dae1167dec40f036df95166fb4",
+      "source_sha256": "3d4bc528f12807e2a520f4b95df332381f7bc8dae1167dec40f036df95166fb4",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "3d4bc528f12807e2a520f4b95df332381f7bc8dae1167dec40f036df95166fb4"
+    },
+    {
+      "path": "src/roomcraft/checkpoint.py",
+      "bytes": 1653,
+      "sha256": "7987cb8648b580f57bb3b3ee784061dfb00b5609a4082a0bd586542167c0dd29",
+      "source_sha256": "7987cb8648b580f57bb3b3ee784061dfb00b5609a4082a0bd586542167c0dd29",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "7987cb8648b580f57bb3b3ee784061dfb00b5609a4082a0bd586542167c0dd29"
+    },
+    {
+      "path": "src/roomcraft/cli.py",
+      "bytes": 7839,
+      "sha256": "ef2a57e6b7fdd3426aadb65d3342f993d0899d2a987153c9cf729e170297baf4",
+      "source_sha256": "ef2a57e6b7fdd3426aadb65d3342f993d0899d2a987153c9cf729e170297baf4",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "ef2a57e6b7fdd3426aadb65d3342f993d0899d2a987153c9cf729e170297baf4"
+    },
+    {
+      "path": "src/roomcraft/common.py",
+      "bytes": 1247,
+      "sha256": "67fa3df08b3aa157d9dbd3d701e4855b50eb06019c02734a7c468d5587abc508",
+      "source_sha256": "67fa3df08b3aa157d9dbd3d701e4855b50eb06019c02734a7c468d5587abc508",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "67fa3df08b3aa157d9dbd3d701e4855b50eb06019c02734a7c468d5587abc508"
+    },
+    {
+      "path": "src/roomcraft/data.py",
+      "bytes": 4661,
+      "sha256": "4fb4465b5782904569cb2cd665639129fa0c1b092097a13a75c0bbfdc419cd48",
+      "source_sha256": "4fb4465b5782904569cb2cd665639129fa0c1b092097a13a75c0bbfdc419cd48",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "4fb4465b5782904569cb2cd665639129fa0c1b092097a13a75c0bbfdc419cd48"
+    },
+    {
+      "path": "src/roomcraft/editing.py",
+      "bytes": 9810,
+      "sha256": "8404bab66d087c8bd3777a3597bfc88017e31a75255f4496e3610eb04d2049f1",
+      "source_sha256": "8404bab66d087c8bd3777a3597bfc88017e31a75255f4496e3610eb04d2049f1",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "8404bab66d087c8bd3777a3597bfc88017e31a75255f4496e3610eb04d2049f1"
+    },
+    {
+      "path": "src/roomcraft/evaluation.py",
+      "bytes": 7753,
+      "sha256": "c5c27680f1be43dfba897f7dc16568a6afcd6bbb1b458335487d1d499596ce8a",
+      "source_sha256": "c5c27680f1be43dfba897f7dc16568a6afcd6bbb1b458335487d1d499596ce8a",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "c5c27680f1be43dfba897f7dc16568a6afcd6bbb1b458335487d1d499596ce8a"
+    },
+    {
+      "path": "src/roomcraft/gaming.py",
+      "bytes": 11921,
+      "sha256": "f5905e8aab94552b2d72713c3734bcfc684a5fd0030ce7da89221a5f13c934c0",
+      "source_sha256": "f5905e8aab94552b2d72713c3734bcfc684a5fd0030ce7da89221a5f13c934c0",
+      "transform": "v1.1.0 release metadata/template promotion; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "40592d58cf14a9d25870f88906f909e38df6de7c8980901bbc3a04e7fc1fc055"
+    },
+    {
+      "path": "src/roomcraft/inference.py",
+      "bytes": 6942,
+      "sha256": "725a080ea8420f4179f07846a83ec2de936ad22215b030336d6731391b3edd7a",
+      "source_sha256": "725a080ea8420f4179f07846a83ec2de936ad22215b030336d6731391b3edd7a",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "725a080ea8420f4179f07846a83ec2de936ad22215b030336d6731391b3edd7a"
+    },
+    {
+      "path": "src/roomcraft/lora.py",
+      "bytes": 3051,
+      "sha256": "37e0f8c88cfd169d75fa2bd933dc03d8a008c3d62339d798b3ab51dfa71c91ad",
+      "source_sha256": "37e0f8c88cfd169d75fa2bd933dc03d8a008c3d62339d798b3ab51dfa71c91ad",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "37e0f8c88cfd169d75fa2bd933dc03d8a008c3d62339d798b3ab51dfa71c91ad"
+    },
+    {
+      "path": "src/roomcraft/models.json",
+      "bytes": 644,
+      "sha256": "a479732af2882564a97ab27d01be1e67c74f2003473c3086ec197ea92093b7b0",
+      "source_sha256": "a479732af2882564a97ab27d01be1e67c74f2003473c3086ec197ea92093b7b0",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "b8b652fb86b6ad3d9d100fb66cee3cce02ae2f67ea80ad63b9a21e679e9b3c04"
+    },
+    {
+      "path": "src/roomcraft/objective.py",
+      "bytes": 1344,
+      "sha256": "e01b924b042c323504199325a773e4338ec040cf0ff2ddae2afa649ac1b8ffca",
+      "source_sha256": "e01b924b042c323504199325a773e4338ec040cf0ff2ddae2afa649ac1b8ffca",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "e01b924b042c323504199325a773e4338ec040cf0ff2ddae2afa649ac1b8ffca"
+    },
+    {
+      "path": "src/roomcraft/overnight.py",
+      "bytes": 6955,
+      "sha256": "55913d16ca7a2f121c02c2d5230d155aa6e8ce19a4d91c76c2acea19eec4f9d5",
+      "source_sha256": "55913d16ca7a2f121c02c2d5230d155aa6e8ce19a4d91c76c2acea19eec4f9d5",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "55913d16ca7a2f121c02c2d5230d155aa6e8ce19a4d91c76c2acea19eec4f9d5"
+    },
+    {
+      "path": "src/roomcraft/preprocess.py",
+      "bytes": 2348,
+      "sha256": "fd2671b8e1b7ef6c58ec0d208c9552d86c37e8d8e552c9eaa0775da0389e8050",
+      "source_sha256": "fd2671b8e1b7ef6c58ec0d208c9552d86c37e8d8e552c9eaa0775da0389e8050",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "fd2671b8e1b7ef6c58ec0d208c9552d86c37e8d8e552c9eaa0775da0389e8050"
+    },
+    {
+      "path": "src/roomcraft/preservation.py",
+      "bytes": 2234,
+      "sha256": "7bacc638188aa24a6efe8efb9b61cab7efb33493af7fadc59d50ce1210a0e893",
+      "source_sha256": "7bacc638188aa24a6efe8efb9b61cab7efb33493af7fadc59d50ce1210a0e893",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "3d5eef9651eeb7fd19c9619b50d3a47a7017f170b67bc671ba4f077bd6a8b80b"
+    },
+    {
+      "path": "src/roomcraft/presets.json",
+      "bytes": 3819,
+      "sha256": "23b98fdea0285046b31f9d98b9a35c7083ce9a4f29eb12270890fc3eb502d802",
+      "source_sha256": "23b98fdea0285046b31f9d98b9a35c7083ce9a4f29eb12270890fc3eb502d802",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "23b98fdea0285046b31f9d98b9a35c7083ce9a4f29eb12270890fc3eb502d802"
+    },
+    {
+      "path": "src/roomcraft/qwen_cache.py",
+      "bytes": 6284,
+      "sha256": "f9d2c0a9bc5e8ddb6c7f517744c7bf9742962d4a21a32f0135665b2e0b2859b5",
+      "source_sha256": "f9d2c0a9bc5e8ddb6c7f517744c7bf9742962d4a21a32f0135665b2e0b2859b5",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "f9d2c0a9bc5e8ddb6c7f517744c7bf9742962d4a21a32f0135665b2e0b2859b5"
+    },
+    {
+      "path": "src/roomcraft/qwen_data.py",
+      "bytes": 5293,
+      "sha256": "3193b9c4bbf009ea497ec8a46990c52405624e692025f3c72bb47271068f9fef",
+      "source_sha256": "3193b9c4bbf009ea497ec8a46990c52405624e692025f3c72bb47271068f9fef",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "3193b9c4bbf009ea497ec8a46990c52405624e692025f3c72bb47271068f9fef"
+    },
+    {
+      "path": "src/roomcraft/qwen_evaluation.py",
+      "bytes": 4534,
+      "sha256": "a34ed48c6adb83fd385e21c1268d883b40fd1e42243770b802feaa106c52e230",
+      "source_sha256": "a34ed48c6adb83fd385e21c1268d883b40fd1e42243770b802feaa106c52e230",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "a34ed48c6adb83fd385e21c1268d883b40fd1e42243770b802feaa106c52e230"
+    },
+    {
+      "path": "src/roomcraft/qwen_objective.py",
+      "bytes": 5309,
+      "sha256": "daf96b9696b2d099887a10fbb675b917a4e1b107d698e821fe5f520c645999df",
+      "source_sha256": "daf96b9696b2d099887a10fbb675b917a4e1b107d698e821fe5f520c645999df",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "daf96b9696b2d099887a10fbb675b917a4e1b107d698e821fe5f520c645999df"
+    },
+    {
+      "path": "src/roomcraft/qwen_training.py",
+      "bytes": 8107,
+      "sha256": "f94cc274cf13643d552c87df4917b4b07704fb9afc68226b8d37a91ee868a4e6",
+      "source_sha256": "f94cc274cf13643d552c87df4917b4b07704fb9afc68226b8d37a91ee868a4e6",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "f94cc274cf13643d552c87df4917b4b07704fb9afc68226b8d37a91ee868a4e6"
+    },
+    {
+      "path": "src/roomcraft/render_dataset.py",
+      "bytes": 8276,
+      "sha256": "a959ed7c213e0ab1c69cf85518ca465de99cdbcf668b1d656d75c4122bf4d80c",
+      "source_sha256": "a959ed7c213e0ab1c69cf85518ca465de99cdbcf668b1d656d75c4122bf4d80c",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "a959ed7c213e0ab1c69cf85518ca465de99cdbcf668b1d656d75c4122bf4d80c"
+    },
+    {
+      "path": "src/roomcraft/rga.py",
+      "bytes": 12659,
+      "sha256": "b3b7231fa622732508a4ac33957e739519419b5533a7fb8d3d04bd16c3ee5a4c",
+      "source_sha256": "b3b7231fa622732508a4ac33957e739519419b5533a7fb8d3d04bd16c3ee5a4c",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "b3b7231fa622732508a4ac33957e739519419b5533a7fb8d3d04bd16c3ee5a4c"
+    },
+    {
+      "path": "src/roomcraft/rga_data.py",
+      "bytes": 6673,
+      "sha256": "62ef947a06b3ebd8debf6438af813495b249db7ef5fe01798045b1d0cbe8b7b1",
+      "source_sha256": "62ef947a06b3ebd8debf6438af813495b249db7ef5fe01798045b1d0cbe8b7b1",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "62ef947a06b3ebd8debf6438af813495b249db7ef5fe01798045b1d0cbe8b7b1"
+    },
+    {
+      "path": "src/roomcraft/rga_inference.py",
+      "bytes": 5609,
+      "sha256": "667576efb3059aab34176422e703b6d79f82ed52bfcae12fde197a414069aa58",
+      "source_sha256": "667576efb3059aab34176422e703b6d79f82ed52bfcae12fde197a414069aa58",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "667576efb3059aab34176422e703b6d79f82ed52bfcae12fde197a414069aa58"
+    },
+    {
+      "path": "src/roomcraft/rga_training.py",
+      "bytes": 13618,
+      "sha256": "a3f3dc8b42ffbd264973c4bacc37260ca1ea89bdbc25506f78edbec6b9037185",
+      "source_sha256": "a3f3dc8b42ffbd264973c4bacc37260ca1ea89bdbc25506f78edbec6b9037185",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "a3f3dc8b42ffbd264973c4bacc37260ca1ea89bdbc25506f78edbec6b9037185"
+    },
+    {
+      "path": "src/roomcraft/runpod_guard.py",
+      "bytes": 7093,
+      "sha256": "4b50e74c7ce213f5e3588a0e177b010b50d58d0c83e1c4545b183830840a7daf",
+      "source_sha256": "4b50e74c7ce213f5e3588a0e177b010b50d58d0c83e1c4545b183830840a7daf",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "4b50e74c7ce213f5e3588a0e177b010b50d58d0c83e1c4545b183830840a7daf"
+    },
+    {
+      "path": "src/roomcraft/themes.json",
+      "bytes": 5246,
+      "sha256": "8e412b07516145c2fc5256d568a1f40c0ba62526579d116fa771416fdd324d58",
+      "source_sha256": "8e412b07516145c2fc5256d568a1f40c0ba62526579d116fa771416fdd324d58",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "8e412b07516145c2fc5256d568a1f40c0ba62526579d116fa771416fdd324d58"
+    },
+    {
+      "path": "src/roomcraft/training.py",
+      "bytes": 9686,
+      "sha256": "2d3ed88015af6b7163b4dc435902699a635e13c42a2899dd30dba6bdc6e78f5d",
+      "source_sha256": "2d3ed88015af6b7163b4dc435902699a635e13c42a2899dd30dba6bdc6e78f5d",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "2d3ed88015af6b7163b4dc435902699a635e13c42a2899dd30dba6bdc6e78f5d"
+    },
+    {
+      "path": "tests/fixtures/manifest.jsonl",
+      "bytes": 1312,
+      "sha256": "c91df5dbd8e65530f70bbba806f8b719009b85747b9a48c8a58a73589accaabe",
+      "source_sha256": "c91df5dbd8e65530f70bbba806f8b719009b85747b9a48c8a58a73589accaabe",
+      "transform": "canonical public source; LF text normalization",
+      "license_scope": "CC0-1.0",
+      "rc3_sha256": "49fb7a2ce2c30df761f306339268e4502ea458fc821810a7711e19c8ac9d67d2"
+    },
+    {
+      "path": "tests/fixtures/mask.png",
+      "bytes": 624,
+      "sha256": "ab2a4f34e9cbc22964e2d1a9950c1088174410186f10a909aeafba86a3da99a6",
+      "source_sha256": "ab2a4f34e9cbc22964e2d1a9950c1088174410186f10a909aeafba86a3da99a6",
+      "transform": null,
+      "license_scope": "CC0-1.0",
+      "rc3_sha256": "ab2a4f34e9cbc22964e2d1a9950c1088174410186f10a909aeafba86a3da99a6"
+    },
+    {
+      "path": "tests/fixtures/README.md",
+      "bytes": 617,
+      "sha256": "e5d1a2cb0fb9b75da1564319464153ad8dcc61d866128e0e5e72557aed442e86",
+      "source_sha256": "e5d1a2cb0fb9b75da1564319464153ad8dcc61d866128e0e5e72557aed442e86",
+      "transform": null,
+      "license_scope": "CC0-1.0",
+      "rc3_sha256": "e5d1a2cb0fb9b75da1564319464153ad8dcc61d866128e0e5e72557aed442e86"
+    },
+    {
+      "path": "tests/fixtures/room.png",
+      "bytes": 3295,
+      "sha256": "df60ea85b10496565f2b1091262ebc78c9213c3b3727288e681f952bfa3da7ad",
+      "source_sha256": "df60ea85b10496565f2b1091262ebc78c9213c3b3727288e681f952bfa3da7ad",
+      "transform": null,
+      "license_scope": "CC0-1.0",
+      "rc3_sha256": "df60ea85b10496565f2b1091262ebc78c9213c3b3727288e681f952bfa3da7ad"
+    },
+    {
+      "path": "tests/fixtures/target.png",
+      "bytes": 3342,
+      "sha256": "277303812fedecc55b6a3a7a46b29a44bd590011161dca9a224e9277a4129717",
+      "source_sha256": "277303812fedecc55b6a3a7a46b29a44bd590011161dca9a224e9277a4129717",
+      "transform": null,
+      "license_scope": "CC0-1.0",
+      "rc3_sha256": "277303812fedecc55b6a3a7a46b29a44bd590011161dca9a224e9277a4129717"
+    },
+    {
+      "path": "tests/fixtures/val_mask.png",
+      "bytes": 624,
+      "sha256": "ab2a4f34e9cbc22964e2d1a9950c1088174410186f10a909aeafba86a3da99a6",
+      "source_sha256": "ab2a4f34e9cbc22964e2d1a9950c1088174410186f10a909aeafba86a3da99a6",
+      "transform": null,
+      "license_scope": "CC0-1.0",
+      "rc3_sha256": "ab2a4f34e9cbc22964e2d1a9950c1088174410186f10a909aeafba86a3da99a6"
+    },
+    {
+      "path": "tests/fixtures/val_room.png",
+      "bytes": 3297,
+      "sha256": "1aeeb6dfb29f9ba4690172f337cb63ee2a4efedfa166497abe4cc243366f83b3",
+      "source_sha256": "1aeeb6dfb29f9ba4690172f337cb63ee2a4efedfa166497abe4cc243366f83b3",
+      "transform": null,
+      "license_scope": "CC0-1.0",
+      "rc3_sha256": "1aeeb6dfb29f9ba4690172f337cb63ee2a4efedfa166497abe4cc243366f83b3"
+    },
+    {
+      "path": "tests/fixtures/val_target.png",
+      "bytes": 3338,
+      "sha256": "cf59cf6c21927d7ecbba6cd551392cf5e2f7ea36141d4b9202f1a5aebf3b9bbb",
+      "source_sha256": "cf59cf6c21927d7ecbba6cd551392cf5e2f7ea36141d4b9202f1a5aebf3b9bbb",
+      "transform": null,
+      "license_scope": "CC0-1.0",
+      "rc3_sha256": "cf59cf6c21927d7ecbba6cd551392cf5e2f7ea36141d4b9202f1a5aebf3b9bbb"
+    },
+    {
+      "path": "tests/test_app.py",
+      "bytes": 9082,
+      "sha256": "06552faaa7dab94889510707dd5a52e1289050d60bad98aa010ceb5ba2d1321c",
+      "source_sha256": "06552faaa7dab94889510707dd5a52e1289050d60bad98aa010ceb5ba2d1321c",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "06552faaa7dab94889510707dd5a52e1289050d60bad98aa010ceb5ba2d1321c"
+    },
+    {
+      "path": "tests/test_causality.py",
+      "bytes": 8216,
+      "sha256": "4e52ba79cfb1745138ec2c2cd01d1210e5dda443dbca365e08ebc4019d04bcf5",
+      "source_sha256": "4e52ba79cfb1745138ec2c2cd01d1210e5dda443dbca365e08ebc4019d04bcf5",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "4e52ba79cfb1745138ec2c2cd01d1210e5dda443dbca365e08ebc4019d04bcf5"
+    },
+    {
+      "path": "tests/test_core.py",
+      "bytes": 9833,
+      "sha256": "7d3ae41bdf2758a1395cf01397851e6c05385b19830057224e338791d1ffa44a",
+      "source_sha256": "7d3ae41bdf2758a1395cf01397851e6c05385b19830057224e338791d1ffa44a",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "7d3ae41bdf2758a1395cf01397851e6c05385b19830057224e338791d1ffa44a"
+    },
+    {
+      "path": "tests/test_editing.py",
+      "bytes": 4929,
+      "sha256": "14b457c423568cbf19695605bdbcb188554a9e7e5e1464949fe05706f20ed865",
+      "source_sha256": "14b457c423568cbf19695605bdbcb188554a9e7e5e1464949fe05706f20ed865",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "14b457c423568cbf19695605bdbcb188554a9e7e5e1464949fe05706f20ed865"
+    },
+    {
+      "path": "tests/test_gaming.py",
+      "bytes": 7546,
+      "sha256": "8b7074780b49e28e0ea84d69361208f05c018e3a4101281b4ab6470d2fa7be69",
+      "source_sha256": "8b7074780b49e28e0ea84d69361208f05c018e3a4101281b4ab6470d2fa7be69",
+      "transform": "v1.1.0 release metadata/template promotion; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "e2a10494128e0918fe4ba5fff50c0b96f6938af270a1d1f26107663c73367c4f"
+    },
+    {
+      "path": "tests/test_overnight.py",
+      "bytes": 4425,
+      "sha256": "ab5c7ce5bc826d26ae302f682adc01e6cb8f633db78423adb675a0a478dcb6f5",
+      "source_sha256": "ab5c7ce5bc826d26ae302f682adc01e6cb8f633db78423adb675a0a478dcb6f5",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "ab5c7ce5bc826d26ae302f682adc01e6cb8f633db78423adb675a0a478dcb6f5"
+    },
+    {
+      "path": "tests/test_qwen_cache_eval.py",
+      "bytes": 5208,
+      "sha256": "fe3273275b56c2c261f59e7a14f06dda6fafb88d1ddf5f05e9dd5ed4917519ed",
+      "source_sha256": "fe3273275b56c2c261f59e7a14f06dda6fafb88d1ddf5f05e9dd5ed4917519ed",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "fe3273275b56c2c261f59e7a14f06dda6fafb88d1ddf5f05e9dd5ed4917519ed"
+    },
+    {
+      "path": "tests/test_qwen_training.py",
+      "bytes": 8972,
+      "sha256": "0038ce175467ca2840ca13055762960aba5097d82aef620fc356904d148bd94a",
+      "source_sha256": "0038ce175467ca2840ca13055762960aba5097d82aef620fc356904d148bd94a",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "0038ce175467ca2840ca13055762960aba5097d82aef620fc356904d148bd94a"
+    },
+    {
+      "path": "tests/test_render_dataset.py",
+      "bytes": 5425,
+      "sha256": "49dc71b9703098bf6152b9133d15b922de84812be05a8d4ee0cc159ed64ed91a",
+      "source_sha256": "49dc71b9703098bf6152b9133d15b922de84812be05a8d4ee0cc159ed64ed91a",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "49dc71b9703098bf6152b9133d15b922de84812be05a8d4ee0cc159ed64ed91a"
+    },
+    {
+      "path": "tests/test_rga.py",
+      "bytes": 15840,
+      "sha256": "4e42c114bc354993ddaaa68b6b53c3480eb59af42213080bcdf838f0fe902d96",
+      "source_sha256": "4e42c114bc354993ddaaa68b6b53c3480eb59af42213080bcdf838f0fe902d96",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "4e42c114bc354993ddaaa68b6b53c3480eb59af42213080bcdf838f0fe902d96"
+    },
+    {
+      "path": "tests/test_rga_release.py",
+      "bytes": 1484,
+      "sha256": "8eb08902338248b989af9450e9f595a348fd1cd57d8ce7b8a0473d1fcaa6c9b1",
+      "source_sha256": "8eb08902338248b989af9450e9f595a348fd1cd57d8ce7b8a0473d1fcaa6c9b1",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "8eb08902338248b989af9450e9f595a348fd1cd57d8ce7b8a0473d1fcaa6c9b1"
+    },
+    {
+      "path": "tests/test_runpod_automation.py",
+      "bytes": 3808,
+      "sha256": "8ebb9ce455ffe6b07b655b1a8bca777fe70c655790b358a1314bf8b3c4f67b01",
+      "source_sha256": "8ebb9ce455ffe6b07b655b1a8bca777fe70c655790b358a1314bf8b3c4f67b01",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "8ebb9ce455ffe6b07b655b1a8bca777fe70c655790b358a1314bf8b3c4f67b01"
+    },
+    {
+      "path": "tests/test_studio.py",
+      "bytes": 3138,
+      "sha256": "e6dfc4d093a9466a7cacc0a6d70b4313eb1f724c7a8c22e4d37c73162bd048de",
+      "source_sha256": "e6dfc4d093a9466a7cacc0a6d70b4313eb1f724c7a8c22e4d37c73162bd048de",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "e6dfc4d093a9466a7cacc0a6d70b4313eb1f724c7a8c22e4d37c73162bd048de"
+    },
+    {
+      "path": "tests/test_v06_preparation.py",
+      "bytes": 7314,
+      "sha256": "8556e23e5a4c2c495a6547a52f036ed46882e3a7ba10a7158f3f96a31159e2e4",
+      "source_sha256": "8556e23e5a4c2c495a6547a52f036ed46882e3a7ba10a7158f3f96a31159e2e4",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "8556e23e5a4c2c495a6547a52f036ed46882e3a7ba10a7158f3f96a31159e2e4"
+    },
+    {
+      "path": "tests/test_v07_evaluation.py",
+      "bytes": 3593,
+      "sha256": "c0821c28397d5677889d31448e40b8c5199c858d24740bed4377ff727abfec7f",
+      "source_sha256": "c0821c28397d5677889d31448e40b8c5199c858d24740bed4377ff727abfec7f",
+      "transform": null,
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "c0821c28397d5677889d31448e40b8c5199c858d24740bed4377ff727abfec7f"
+    },
+    {
+      "path": "uv.lock",
+      "bytes": 94536,
+      "sha256": "1f4694eac7262280bb6495dfbaca64181af94f34205d156bdfa0c47069371e43",
+      "source_sha256": "1f4694eac7262280bb6495dfbaca64181af94f34205d156bdfa0c47069371e43",
+      "transform": "v1.1.0 release metadata/template promotion; LF text normalization",
+      "license_scope": "MIT-original-contribution",
+      "rc3_sha256": "7de59cdac5bf91b4a1728ce7f8c6794e49237c831939721be66df12835cf4631"
+    },
+    {
+      "path": "PUBLICATION.md",
+      "bytes": 2929,
+      "sha256": "1ef1f789d9c7c98ec174443e95a593c9a5e6efde44cea7042c8ee88adbecc04d",
+      "source_sha256": "1ef1f789d9c7c98ec174443e95a593c9a5e6efde44cea7042c8ee88adbecc04d",
+      "rc3_sha256": null,
+      "transform": "owner-authorized publication provenance; LF text normalization",
+      "license_scope": "MIT-original-contribution"
+    }
+  ],
+  "files_count": 227,
+  "credential_privacy_scan": "passed",
+  "weights_included": false,
+  "datasets_included": false,
+  "publication": "Owner-authorized public GitHub source release; private weights excluded",
+  "dependency_caveat": "See docs/SECURITY_AUDIT.md; UI Pillow override and historical model-worker advisories are disclosed.",
+  "policy_sha256": "c998feee05b2feac122bda5a28be0e515ec3659743a38d8b49cdbe1d7b13dbbd",
+  "rc3_origin_archive_sha256": "30fd00b582301a54b104faf51d2d2b05215ccea47f7d003daae66d56d182dc6c",
+  "rc3_promotion_changed_files": [
+    "configs/overnight_v06.json",
+    "configs/release_policy.json",
+    "environments/app/pyproject.toml",
+    "environments/app/uv.lock",
+    "environments/qwen/uv.lock",
+    "pyproject.toml",
+    "README.md",
+    "src/roomcraft/__init__.py",
+    "src/roomcraft/app.py",
+    "src/roomcraft/app_service.py",
+    "src/roomcraft/gaming.py",
+    "tests/test_gaming.py",
+    "uv.lock"
+  ],
+  "text_normalization": "LF; Python AST and JSON/TOML data equivalence verified; model/image bytes unchanged"
+}

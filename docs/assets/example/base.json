@@ -1,0 +1,46 @@
+{
+  "base": {
+    "repo": "Qwen/Qwen-Image-Edit-2511",
+    "revision": "6f3ccc0b56e431dc6a0c2b2039706d7d26f22cb9"
+  },
+  "adapter_sha256": null,
+  "settings": {
+    "size": 1024,
+    "steps": 40,
+    "true_cfg_scale": 4.0,
+    "seed": 42,
+    "negative_prompt": " ",
+    "offload": false
+  },
+  "prompt": "Furnish this small corner with one comfortable blue-gray upholstered armchair, a small wooden side table and a reading lamp. Keep circulation space open. Preserve the curtains, wallpaper, parquet floor, walls, camera viewpoint and existing lighting. Do not add or move architectural features.",
+  "input_sha256": "6832cabc8d8b44b435e1d3ad6d4ffe0130780e1eea86ec346739377fdf927a18",
+  "output_sha256": "25855484fe6d563c479218d77abcda36046af265aab7b0e5738481a006e844e4",
+  "source_size": [
+    1280,
+    1707
+  ],
+  "working_size": [
+    768,
+    1024
+  ],
+  "generation_seconds": 32.70165295305196,
+  "total_seconds": 47.25528386095539,
+  "peak_gpu_allocated_bytes": 61192887296,
+  "dtype": "bfloat16",
+  "quantization": "none",
+  "compositing": "none",
+  "application": {
+    "version": "1.0.0rc1",
+    "origin": "saved_example",
+    "previous_experiment": "V0.7",
+    "adapter_version": null,
+    "source_note": "Bundled preview is resized RGB PNG; original input SHA256 refers to the licensed original JPEG, not this preview."
+  },
+  "provenance": {
+    "author": "upyernoz",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Our_Hotel_Suite-1_(4983234010).jpg",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "changes": "Input resized and converted to PNG. Outputs are AI edits. No endorsement."
+  }
+}

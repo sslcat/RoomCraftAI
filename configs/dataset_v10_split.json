@@ -1,0 +1,7 @@
+{
+  "schema": "roomcraft-family-assignment-v1",
+  "purpose": "Predeclared by family index before visual acceptance; all four room-use categories in each split. More held-out coverage than the earlier 80/10/10 recipe.",
+  "train": ["gaming_08", "gaming_09", "gaming_10", "gaming_11", "gaming_12", "gaming_13", "gaming_14", "gaming_15", "gaming_16", "gaming_17", "gaming_18", "gaming_19"],
+  "validation": ["gaming_04", "gaming_05", "gaming_06", "gaming_07"],
+  "test": ["gaming_00", "gaming_01", "gaming_02", "gaming_03"]
+}
