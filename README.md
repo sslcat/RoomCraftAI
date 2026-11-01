@@ -8,6 +8,53 @@ RoomCraft is a local Gradio application that turns a room photograph and your de
 
 ![RoomCraft Studio](docs/assets/studio-rc3.png)
 
+## Mathematics & Neural Network Engineering
+
+RoomCraft's neural-network work adapts **frozen Qwen-Image-Edit-2511 components** rather than training a new foundation model. The project implements paired-data/cache contracts, gradient-reachable attention adapters, a target-only flow objective, training/resume checks, and a compact geometry-conditioning path. Standard LoRA, flow matching, backpropagation and AdamW are credited to their original researchers and libraries.
+
+**Low-rank linear algebra.** For a frozen projection $W_0$, RoomCraft learns small matrices $A$ and $B$:
+
+$$
+W_{\mathrm{eff}}=W_0+\frac{\alpha}{r}BA,\qquad
+A\in\mathbb{R}^{r\times d_{\mathrm{in}}},\quad
+B\in\mathbb{R}^{d_{\mathrm{out}}\times r}.
+$$
+
+This adds $r(d_{\mathrm{in}}+d_{\mathrm{out}})$ trainable parameters instead of updating every dense weight. At rank 8, 479 selected Qwen attention projections contain **23,543,808 trained LoRA parameters**. The last block's unused text-output projection is excluded because it has no gradient path to image loss. The VAE/VLM are frozen and their conditioning is cached.
+
+**Conditional flow matching.** A furnished target latent $z_0$ is mixed with Gaussian noise, while the original room and instruction remain clean conditioning:
+
+$$
+z_\sigma=(1-\sigma)z_0+\sigma\epsilon,\qquad
+u=\frac{\partial z_\sigma}{\partial\sigma}=\epsilon-z_0,\qquad
+\mathcal{L}=\operatorname{mean}_{\text{target tokens, channels}}(p-u)^2.
+$$
+
+The implementation samples $\sigma$ uniformly and predicts velocity; reference output tokens receive no direct reconstruction loss. **Backpropagation** sends the loss signal through layer Jacobians using the chain rule:
+
+$$
+\nabla_\theta\mathcal{L}=J_{h,\theta}^{\top}\nabla_h\mathcal{L}.
+$$
+
+PyTorch's **AdamW** accumulates first/second gradient moments, applies bias correction and updates only the trainable parameters with decoupled weight decay. RoomCraft averages four microbatch gradients per pilot update, checks finite gradients, clips their global norm to 1 and saves optimizer state for resumption.
+
+**Original RoomCraft Geometry Adapter.** RGA encodes source Canny edges and XY coordinates with four Conv/GroupNorm/SiLU stages and a zero-initialized projection. Its **728,512 trained parameters** produce target-aligned residuals injected through the frozen Qwen transformer. During RGA training, the existing LoRA is frozen too; transformer input derivatives remain active so gradients can reach RGA. The calibrated checkpoint's gain is $10^8$, explicitly recorded rather than hidden.
+
+```mermaid
+flowchart LR
+    I["Original room image"] --> C["Frozen Qwen conditioning"]
+    I --> G["RoomCraft Geometry Adapter"]
+    C --> T["Frozen Qwen transformer with LoRA updates"]
+    G -->|"Target-token residuals"| T
+    T --> S["Upstream sampling and VAE decode"]
+    S --> O["Generated furnished room"]
+```
+
+**Evidence:** two-update smoke/resume checks, a fresh 100-update LoRA pilot, two 100-update RGA pilots, tensor/gradient tests and frozen-state checks. Exact RGA replay is verified in its tested setup; bitwise full-model LoRA GPU replay is not claimed. Successful training is distinct from better images: earlier geometry ablations were mixed, and the positive Underwater result is **one real photo and one seed**, not a universal guarantee.
+
+[Read the equations, dimensions, parameter-count derivations, optimizer/resume details, source/test map and attribution](docs/MATHEMATICS_AND_MODEL_ENGINEERING.md). See also [LoRA training evidence](docs/MODEL_CARD_V06_PILOT.md), [controlled ablation findings](docs/RESEARCH_RESULTS.md) and [the approved Underwater comparison](docs/RGA_VALIDATION.md).
+
+
 ## Start the application
 
 Install Python 3.12 and [uv](https://docs.astral.sh/uv/), extract the candidate ZIP, and run from its root:
