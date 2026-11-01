@@ -6,8 +6,6 @@
 
 RoomCraft is a local Gradio application that turns a room photograph and your design choices into a conceptual interior visualization. Choose Gaming, Work, Relaxation or Mixed-purpose independently of six decorative themes. Compare original and generated images, download native PNGs and exact settings, and revisit up to eight session results.
 
-![RoomCraft Studio](docs/assets/studio-rc3.png)
-
 ## Mathematics & Neural Network Engineering
 
 RoomCraft's neural-network work adapts **frozen Qwen-Image-Edit-2511 components** rather than training a new foundation model. The project implements paired-data/cache contracts, gradient-reachable attention adapters, a target-only flow objective, training/resume checks, and a compact geometry-conditioning path. Standard LoRA, flow matching, backpropagation and AdamW are credited to their original researchers and libraries.
@@ -54,6 +52,8 @@ flowchart LR
 
 [Read the equations, dimensions, parameter-count derivations, optimizer/resume details, source/test map and attribution](docs/MATHEMATICS_AND_MODEL_ENGINEERING.md). See also [LoRA training evidence](docs/MODEL_CARD_V06_PILOT.md), [controlled ablation findings](docs/RESEARCH_RESULTS.md) and [the approved Underwater comparison](docs/RGA_VALIDATION.md).
 
+
+![RoomCraft Studio](docs/assets/studio-rc3.png)
 
 ## Start the application
 
